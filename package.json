@@ -1,12 +1,12 @@
 {
   "name": "comision39315-coderhouse2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este proyecto es un piloto para la Empresa donde trabajo.\r En principio va ser una web de presentación, informativa\r de la empresa en Internet.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss ./scss/style.scss ./css/style.css",
-    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",

@@ -109,8 +109,8 @@ h6 {
   padding: 1rem 4rem 0rem 4rem;
   text-decoration: none; }
   .header-1 .header-1-1 .logo {
-    width: 17rem;
-    height: 6rem; }
+    width: 23rem;
+    height: 8rem; }
   .header-1 .header-1-1 .icono {
     width: 3.2rem;
     height: 3.2rem;
@@ -268,7 +268,6 @@ h6 {
 
 .main-i .h1-1 {
   background-color: white;
-  color: #3c61bf;
   text-align: center;
   padding: 3rem 0rem 3rem 0rem;
   margin: 0rem; }
@@ -277,7 +276,7 @@ h6 {
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 26rem);
+  grid-template-columns: repeat(4, 31rem);
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
@@ -285,15 +284,14 @@ h6 {
   row-gap: 2rem;
   padding: 2rem;
   text-align: center; }
-  .main-i .main-i1 h2 {
+  .main-i .main-i1 p {
     padding: 2rem 0rem 2rem 0rem; }
   .main-i .main-i1 div {
-    color: #3c61bf;
     text-align: center; }
   .main-i .main-i1 img {
     border-radius: 1rem;
-    width: 25rem;
-    height: 25rem; }
+    width: 30rem;
+    height: 30rem; }
 
 .main-i .h1-2 {
   background-color: #dae576;
@@ -307,13 +305,13 @@ h6 {
   margin: auto;
   background-color: #dae576;
   display: grid;
-  grid-template-columns: repeat(4, 26rem);
+  grid-template-columns: repeat(4, 31rem);
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: center;
   column-gap: 6rem;
-  row-gap: 2rem;
-  padding: 2rem;
+  row-gap: none;
+  padding: 4rem;
   text-align: center; }
   .main-i .main-i2 h2 {
     padding: 2rem 0rem 2rem 0rem; }
@@ -322,8 +320,8 @@ h6 {
     color: black; }
   .main-i .main-i2 img {
     border-radius: 1rem;
-    width: 25rem;
-    height: 25rem; }
+    width: 30rem;
+    height: 30rem; }
 
 .main-n .banner-n1 .banner-n1-1 {
   display: block;

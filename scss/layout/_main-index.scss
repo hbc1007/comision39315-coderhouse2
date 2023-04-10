@@ -13,7 +13,6 @@
 
     .h1-1 {
         background-color: white;
-        color:rgb(60,97,191);
         text-align: center;
         padding: 3rem 0rem 3rem 0rem;
         margin: 0rem;
@@ -22,23 +21,22 @@
     .main-i1 {
         width: 100%;
         margin: auto;
-        @include grid(repeat(3,26rem), 1fr, center, center, 6rem, 2rem);
+        @include grid(repeat(4,31rem), 1fr, center, center, 6rem, 2rem);
         padding: 2rem;
         text-align: center;
     
-        h2 {
+        p {
             padding: 2rem 0rem 2rem 0rem;
         }
     
         div {
-            color:rgb(60,97,191);
             text-align: center;
         }
 
         img {
             border-radius: 1rem;
-            width: 25rem;
-            height: 25rem;
+            width: 30rem;
+            height: 30rem;
         }
     }
 
@@ -54,8 +52,8 @@
         width: 100%;
         margin: auto;
         background-color: rgb(218,229,118);
-        @include grid(repeat(4,26rem), 1fr, center, center, 6rem, 2rem);
-        padding: 2rem;
+        @include grid(repeat(4,31rem), 1fr, center, center, 6rem, none);
+        padding: 4rem;
         text-align: center;
 
         h2 {
@@ -69,8 +67,8 @@
         
         img {
             border-radius: 1rem;
-            width: 25rem;
-            height: 25rem;
+            width: 30rem;
+            height: 30rem;
         }
     }
 }
