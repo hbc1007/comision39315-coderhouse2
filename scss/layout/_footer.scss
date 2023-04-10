@@ -1,0 +1,91 @@
+.footer-1 {
+    .footer-1-1 {
+        width: 100%;
+        @include grid(30% 30% 20% 20%, 1fr, none, flex-start, none, none);
+        padding: 2rem;
+        text-align: center;
+
+        .footer-1-1-1 {
+            padding: 2rem 8rem 2rem 8rem;
+        
+            p {
+                letter-spacing: 0.1rem;
+            }
+        }
+
+        .footer-1-1-2 {
+            padding: 2rem 8rem 2rem 8rem;
+        
+            p {
+                letter-spacing: 0.1rem;
+            }
+
+            .footer-1-1-2-2 {
+                width: 100%;
+                @include flex(column, row, center, none, flex-start, 2rem, none);
+            
+                img {
+                    width: 2.4rem;
+                    height: 2.4rem;
+                }
+            }
+
+            .footer-1-1-2-3 {
+                width: 100%;
+                @include flex(column, row, center, none, flex-start, 2rem, none);
+            
+                img {
+                    width: 2.4rem;
+                    height: 2.4rem;
+                }
+            }
+        }
+
+        .footer-1-1-3 {
+            padding: 2rem 8rem 2rem 8rem;
+        
+            img {
+                width: 3.2rem;
+                height: 3.2rem;
+                margin: 1rem;
+            }
+        }
+
+        .footer-1-1-4 {
+            padding: 2rem 8rem 2rem 8rem;
+        
+            img {
+                width: 3.2rem;
+                height: 3.2rem;
+                margin: 1rem;
+            }
+        }
+    }
+
+    .footer-1-2 {
+        padding: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

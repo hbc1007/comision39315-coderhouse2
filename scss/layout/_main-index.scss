@@ -1,0 +1,76 @@
+.main-i {
+    .banner-i1 {
+        .banner-i1-1 {
+            display: block;
+            width: 100%;
+            margin: 0rem;
+        }
+        
+        .banner-i1-2 {
+            display: none;
+        }
+    }
+
+    .h1-1 {
+        background-color: white;
+        color:rgb(60,97,191);
+        text-align: center;
+        padding: 3rem 0rem 3rem 0rem;
+        margin: 0rem;
+    }
+
+    .main-i1 {
+        width: 100%;
+        margin: auto;
+        @include grid(repeat(3,26rem), 1fr, center, center, 6rem, 2rem);
+        padding: 2rem;
+        text-align: center;
+    
+        h2 {
+            padding: 2rem 0rem 2rem 0rem;
+        }
+    
+        div {
+            color:rgb(60,97,191);
+            text-align: center;
+        }
+
+        img {
+            border-radius: 1rem;
+            width: 25rem;
+            height: 25rem;
+        }
+    }
+
+    .h1-2 {
+        background-color: rgb(218,229,118);
+        color:black;
+        padding: 3rem 0rem 3rem 0rem;
+        margin: 0rem;
+        text-align: center;
+    }
+
+    .main-i2 {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(218,229,118);
+        @include grid(repeat(4,26rem), 1fr, center, center, 6rem, 2rem);
+        padding: 2rem;
+        text-align: center;
+
+        h2 {
+            padding: 2rem 0rem 2rem 0rem;
+        }
+        
+        div {
+            text-align: center;
+            color:black;
+        }
+        
+        img {
+            border-radius: 1rem;
+            width: 25rem;
+            height: 25rem;
+        }
+    }
+}

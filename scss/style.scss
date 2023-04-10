@@ -1,0 +1,45 @@
+@import "./utilities/variables";
+@import "./utilities/funciones";
+@import "./utilities/mixins";
+@import "./base/reset";
+@import "./base/typo";
+@import "./components/bootstrap";
+@import "./components/botones";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main-catalogos";
+@import "./layout/main-contacto";
+@import "./layout/main-index";
+@import "./layout/main-nosotros";
+@import "./layout/main-productos";
+
+.container-1 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+    color:white;
+    background-color: $background-header;
+}
+
+main {
+    grid-area: main;
+    background-color: $background-main;
+}
+
+footer {
+    grid-area: footer;
+    color:white;
+    background-color: $background-footer;
+}

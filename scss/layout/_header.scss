@@ -1,0 +1,78 @@
+.header-1 {
+    .header-1-1 {
+        @include flex(column, row, space-between, none, center, none, none);
+        padding: 1rem 4rem 0rem 4rem;
+        text-decoration: none;
+
+        .logo {
+            width: 17rem;
+            height: 6rem;
+        }
+    
+        .icono {
+            width: 3.2rem;
+            height: 3.2rem;
+            margin-left: 1rem;
+        }
+    }
+
+    .header-1-2 {
+        margin: 0rem;
+        text-decoration: none;
+    
+        label {
+            display: none;
+        }
+
+        label .menu {
+            width: 3.2rem;
+            height: 3.2rem;
+        }
+        
+        label:hover {
+            cursor: pointer;
+            background-color: $background-header;
+        }
+
+        .navbar {
+            position: center;
+
+            ul {
+                margin: 0;
+                list-style: none;
+                background-color: $background-header;
+                @include flex(column, row, space-evenly, none, none, none, none);
+                padding: 0rem 20rem 0rem 20rem;
+                
+                li {
+                    a {
+                        display: block;
+                        font-size: 2.2rem;
+                        color: white;
+                        border-radius: 3px;
+                        letter-spacing: 1px;
+                        /*padding: top right bottom left*/
+                        padding: 0.5rem 5rem 0.5rem 5rem;
+                        text-align: center;
+                        text-decoration: none;
+
+                        &:hover {
+                            background-color: $color-header;
+                            color: $background-header;
+                            transition: all 0.5s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+
+        #btn-menu {
+            display: none;
+        }
+    }
+}
+
+
+
+
+

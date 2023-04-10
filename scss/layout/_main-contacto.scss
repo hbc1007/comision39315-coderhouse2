@@ -1,0 +1,63 @@
+.main-c {
+    .main-c1 {
+        background-color: #ecf0f3;
+        border: 1px solid #bfd8eb;
+        border-radius: 0.5rem;
+        margin: 3rem auto;
+        width: 60%;
+        font-size: 2rem;
+
+        .h1-9 {
+            background-color: #ecf0f3;
+            color:black;
+            padding: 3rem 0rem 3rem 0rem;
+            margin: 0rem;
+            text-align: center;
+        }
+
+        .main-c1-1 {
+            background-color:rgba(60, 97, 191, 0.250);
+            border-radius: 0.8rem 0.8rem 0rem 0rem;
+            margin-bottom: 0rem;
+        }
+
+        .main-c1-2 {
+            padding: 1.4rem;   
+        }
+
+        label, input[type="submit"] {
+            margin-top: 1rem;
+        }
+
+        .btn:focus{
+            outline: none;
+        }
+    }
+
+    .main-c2 {
+        background-color: rgb(233,209,160);
+        color:black;
+        width: 100%;
+        @include grid(20% 30% 30% 20%, 1fr, none, none, none, none);
+        padding: 2rem;
+
+        .main-c2-1 {
+            padding: 2rem;
+
+            h3 {
+                text-align: center;
+            }
+            
+            p {
+                letter-spacing: 0.1rem;
+                text-align: center;
+            }
+        }
+
+        .main-c2-2 {
+            width: 100%;
+            @include flex(column, row, center, center, center, 1rem, none);
+            padding: 2rem;
+        }
+    }
+}
