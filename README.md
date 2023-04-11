@@ -1,6 +1,6 @@
-Este proyecto es un piloto para la Empresa donde trabajo.
-En principio va ser una sitio web de presentación y/o informativa en Internet.
-Luego implementar una intranet para ver reportes gerenciales entre otras.
+Este proyecto es un piloto para la empresa donde trabajo.
+En principio será una sitio web de presentación de la empresa.
+Luego se implementará una intranet para ver reportes gerenciales entre otras.
 
 Herramientas usadas:
 - HTML5
