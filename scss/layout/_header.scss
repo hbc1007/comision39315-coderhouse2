@@ -1,7 +1,13 @@
 .header-1 {
+    background-color: $background-header;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
     .header-1-1 {
         @include flex(column, row, space-between, none, center, none, none);
-        padding: 1rem 4rem 0rem 4rem;
+        padding: 0rem 4rem 0rem 4rem;
         text-decoration: none;
 
         .logo {
@@ -41,8 +47,8 @@
                 margin: 0;
                 list-style: none;
                 background-color: $background-header;
-                @include flex(column, row, space-evenly, none, none, none, none);
-                padding: 0rem 20rem 0rem 20rem;
+                @include flex(column, row, center, center, center, 2rem, none);
+                // padding: 0rem 0rem 0rem 0rem;
                 
                 li {
                     a {
@@ -52,14 +58,14 @@
                         border-radius: 3px;
                         letter-spacing: 1px;
                         /*padding: top right bottom left*/
-                        padding: 0.5rem 5rem 0.5rem 5rem;
+                        padding: 0.5rem 2rem 0.5rem 2rem;
+                        transition: all 0.5s linear;
                         text-align: center;
                         text-decoration: none;
 
                         &:hover {
                             background-color: $color-header;
                             color: $background-header;
-                            transition: all 0.5s ease-in-out;
                         }
                     }
                 }

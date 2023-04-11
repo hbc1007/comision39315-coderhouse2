@@ -1,4 +1,6 @@
 .main-a {
+    padding-top: 13rem;
+    
     .banner-a1-1 {
         display: block;
         width: 100%;
@@ -26,8 +28,8 @@
 
         .button {
             width: 25rem;
-            background-color: rgb(233,209,160);
-            border-color: rgb(233, 209, 160);
+            background-color: rgba(128, 130, 132, 0.250);
+            border-color: rgba(128, 130, 132, 0.250);
             border-radius: 2rem;
             text-align: center;
             color:black;
