@@ -22,7 +22,7 @@
         }
     }
 
-    /*-------------------------------------------------------------------*/
+    /***************************************************/
 
     .header-1-2 {
         margin: 0rem;
@@ -41,12 +41,12 @@
                 background-color: $color-azul;
             }
         }
-        
+
         .navbar {
             position: center;
 
             ul {
-                margin: 0; 
+                margin: 0rem;
                 list-style: none;
                 @include flex(none, none, row, center, none, none, 4rem, none);
                 background-color: $color-azul;

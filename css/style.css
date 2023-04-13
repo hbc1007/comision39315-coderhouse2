@@ -100,7 +100,7 @@ h6 {
   padding: 3rem; }
 
 .header-1 {
-  /*-------------------------------------------------------------------*/ }
+  /***************************************************/ }
   .header-1 .header-1-1 {
     display: flex;
     flex-flow: row wrap;
@@ -134,7 +134,7 @@ h6 {
     .header-1 .header-1-2 .navbar {
       position: center; }
       .header-1 .header-1-2 .navbar ul {
-        margin: 0;
+        margin: 0rem;
         list-style: none;
         display: flex;
         flex-flow: none;
@@ -180,13 +180,13 @@ h6 {
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 31rem);
+  grid-template-columns: repeat(4, minmax(10%, 20%));
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: flex-start;
-  column-gap: 4rem;
+  column-gap: 2rem;
   row-gap: 2rem;
-  padding: 4rem 2rem 4rem 2rem;
+  padding: 4rem;
   text-align: center; }
   .main-i .main-i1 div h3 {
     text-align: center;
@@ -194,8 +194,8 @@ h6 {
     padding: 2rem 2rem 2rem 2rem; }
   .main-i .main-i1 img {
     border-radius: 1rem;
-    width: 30rem;
-    height: 30rem; }
+    max-width: 30rem;
+    max-height: 30rem; }
 
 .main-i .h1-2 {
   background-color: #00b1ea;
@@ -209,18 +209,18 @@ h6 {
   margin: auto;
   background-color: #00b1ea;
   display: grid;
-  grid-template-columns: repeat(4, 31rem);
+  grid-template-columns: repeat(4, minmax(10%, 20%));
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: flex-start;
-  column-gap: 4rem;
-  row-gap: none;
-  padding: 4rem 2rem 8rem 2rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 4rem;
   text-align: center; }
   .main-i .main-i2 img {
     border-radius: 1rem;
-    width: 30rem;
-    height: 30rem; }
+    max-width: 30rem;
+    max-height: 30rem; }
 
 .main-f .banner-f1 .banner-f1-1 {
   display: block;
@@ -420,7 +420,7 @@ h6 {
   /**************HEADER - 1024***************/
   /******************************************/
   .header-1 {
-    /******************************************/ }
+    /***********************************************/ }
     .header-1 .header-1-1 .logo {
       width: 20.1rem;
       height: 7rem; }
@@ -430,6 +430,7 @@ h6 {
       margin-left: 1rem; }
     .header-1 .header-1-2 {
       margin: 0rem;
+      padding: 0rem;
       text-decoration: none; }
       .header-1 .header-1-2 label {
         display: block;
@@ -447,17 +448,8 @@ h6 {
         width: 40%;
         margin-left: -70%; }
         .header-1 .header-1-2 .navbar ul {
-          display: flex;
-          flex-flow: none;
-          flex-direction-column: column;
-          flex-direction-row: none;
-          justify-content: flex-start;
-          align-content: none;
-          align-items: none;
-          column-gap: 4rem;
-          row-gap: none;
           flex-direction: column;
-          justify-content: center;
+          justify-content: flex-start;
           padding: 0rem; }
           .header-1 .header-1-2 .navbar ul li {
             border-top: 0.05rem solid white; }
@@ -474,12 +466,12 @@ h6 {
   /******************************************/
   .main-i .main-i1 {
     display: grid;
-    grid-template-columns: repeat(2, 26rem);
+    grid-template-columns: repeat(2, minmax(10%, 26rem));
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: flex-start;
-    column-gap: 4rem;
-    row-gap: 4rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
     grid-template-areas: "main-i1-1 main-i1-2" "main-i1-3 main-i1-4"; }
     .main-i .main-i1 .main-i1-1 {
       grid-area: main-i1-1; }
@@ -495,12 +487,12 @@ h6 {
       height: 25rem; }
   .main-i .main-i2 {
     display: grid;
-    grid-template-columns: repeat(2, 26rem);
+    grid-template-columns: repeat(2, minmax(10%, 26rem));
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: flex-start;
-    column-gap: 4rem;
-    row-gap: 4rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
     grid-template-areas: "main-i2-1 main-i2-2" "main-i2-3 main-i2-4"; }
     .main-i .main-i2 .main-i2-1 {
       grid-area: main-i2-1; }
@@ -578,7 +570,7 @@ h6 {
   /***************HEADER - 767***************/
   /******************************************/
   .header-1 {
-    /**************************************/ }
+    /***********************************************/ }
     .header-1 .header-1-1 .logo {
       width: 14.4rem;
       height: 5rem; }
@@ -606,7 +598,7 @@ h6 {
         .header-1 .header-1-2 .navbar ul {
           flex-direction: column;
           justify-content: flex-start;
-          padding: 0px; }
+          padding: 0rem; }
           .header-1 .header-1-2 .navbar ul li {
             border-top: 0.05rem solid white; }
             .header-1 .header-1-2 .navbar ul li a {

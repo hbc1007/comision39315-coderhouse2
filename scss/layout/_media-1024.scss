@@ -18,10 +18,11 @@
             }
         }
     
-        /******************************************/
+        /***********************************************/
     
         .header-1-2 {
             margin: 0rem;
+            padding: 0rem;
             text-decoration: none;
 
             label {
@@ -45,10 +46,8 @@
                 margin-left: -70%;
     
                 ul {
-                    @include flex(none, column, none, flex-start, none, none, 4rem, none);
                     flex-direction: column;
-                    // justify-content: flex-start;
-                    justify-content: center;
+                    justify-content: flex-start;
                     padding: 0rem;
     
                     li {
@@ -78,7 +77,7 @@
 
     .main-i {
         .main-i1 {
-            @include grid(repeat(2,26rem), repeat(2,1fr), center, flex-start, 4rem, 4rem);
+            @include grid(repeat(2,minmax(10%, 26rem)), repeat(2,1fr), center, flex-start, 2rem, 2rem);
             grid-template-areas:
             "main-i1-1 main-i1-2"
             "main-i1-3 main-i1-4";
@@ -107,7 +106,7 @@
         }
     
         .main-i2 {
-            @include grid(repeat(2,26rem), repeat(2,1fr), center, flex-start, 4rem, 4rem);
+            @include grid(repeat(2,minmax(10%, 26rem)), repeat(2,1fr), center, flex-start, 2rem, 2rem);
             grid-template-areas:
             "main-i2-1 main-i2-2"
             "main-i2-3 main-i2-4";
