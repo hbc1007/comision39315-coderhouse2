@@ -1,5 +1,6 @@
-@mixin flex($flex-direction-column, $flex-direction-row, $justify-content, $align-content, $align-items, $column-gap, $row-gap) {
+@mixin flex($flex-flow, $flex-direction-column, $flex-direction-row, $justify-content, $align-content, $align-items, $column-gap, $row-gap) {
     display: flex;
+    flex-flow: $flex-flow;
     flex-direction-column: $flex-direction-column;
     flex-direction-row: $flex-direction-row;
     justify-content: $justify-content;
@@ -17,5 +18,4 @@
     align-items: $align-items;
     column-gap: $column-gap;
     row-gap: $row-gap;
-    
 }

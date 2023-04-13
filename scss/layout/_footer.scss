@@ -22,7 +22,7 @@
 
             .footer-1-1-2-2 {
                 width: 100%;
-                @include flex(column, row, center, none, flex-start, 2rem, none);
+                @include flex(row wrap, none, none, center, none, flex-start, 2rem, none);
             
                 img {
                     width: 2.4rem;
@@ -32,7 +32,7 @@
 
             .footer-1-1-2-3 {
                 width: 100%;
-                @include flex(column, row, center, none, flex-start, 2rem, none);
+                @include flex(row wrap, none, none, center, none, flex-start, 2rem, none);
             
                 img {
                     width: 2.4rem;

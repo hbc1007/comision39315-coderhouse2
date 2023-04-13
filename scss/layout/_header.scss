@@ -1,20 +1,20 @@
 .header-1 {
-    background-color: $background-header;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+    // background-color: $color-azul;
+    // position: fixed;
+    // left: 0;
+    // top: 0;
+    // width: 100%;
 
     .header-1-1 {
-        @include flex(column, row, space-between, none, center, none, none);
-        padding: 0rem 4rem 0rem 4rem;
+        @include flex(row wrap, none, none, space-between, none, center, none, none);
+        padding: 1rem 4rem 0rem 4rem;
         text-decoration: none;
 
         .logo {
-            width: 23rem;
-            height: 8rem;
+            width: 25.9rem;
+            height: 9rem;
         }
-        
+
         .icono {
             width: 3.2rem;
             height: 3.2rem;
@@ -22,50 +22,50 @@
         }
     }
 
+    /*-------------------------------------------------------------------*/
+
     .header-1-2 {
         margin: 0rem;
         text-decoration: none;
     
         label {
             display: none;
-        }
 
-        label .menu {
-            width: 3.2rem;
-            height: 3.2rem;
+            .menu {
+                width: 3.2rem;
+                height: 3.2rem;
+            }
+            
+            :hover {
+                cursor: pointer;
+                background-color: $color-azul;
+            }
         }
         
-        label:hover {
-            cursor: pointer;
-            background-color: $background-header;
-        }
-
         .navbar {
             position: center;
 
             ul {
-                margin: 0;
+                margin: 0; 
                 list-style: none;
-                background-color: $background-header;
-                @include flex(column, row, center, center, center, 2rem, none);
-                // padding: 0rem 0rem 0rem 0rem;
+                @include flex(none, none, row, center, none, none, 4rem, none);
+                background-color: $color-azul;
                 
                 li {
                     a {
                         display: block;
-                        font-size: 2.2rem;
-                        color: white;
-                        border-radius: 3px;
-                        letter-spacing: 1px;
-                        /*padding: top right bottom left*/
-                        padding: 0.5rem 2rem 0.5rem 2rem;
-                        transition: all 0.5s linear;
+                        font-size: 2rem;
+                        color: $color-blanco;
+                        border-radius: 0.3rem;
+                        letter-spacing: 0.1rem;
+                        padding: 0.4rem 0rem 0.4rem 0rem;
                         text-align: center;
                         text-decoration: none;
 
                         &:hover {
-                            background-color: $color-header;
-                            color: $background-header;
+                            background-color: $color-azul;
+                            color: $color-cian;
+                            transition: all 0.5s ease-in-out;
                         }
                     }
                 }
@@ -77,8 +77,3 @@
         }
     }
 }
-
-
-
-
-

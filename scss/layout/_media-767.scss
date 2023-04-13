@@ -1,0 +1,267 @@
+@media (max-width: 767px) {
+
+    /******************************************/
+    /***************HEADER - 767***************/
+    /******************************************/
+
+    .header-1 {
+        .header-1-1 {
+            .logo {
+                width: 14.4rem;
+                height: 5rem;
+            }
+        
+            .icono {
+                width: 2.4rem;
+                height: 2.4rem;
+                margin: 1rem;
+            }
+        }
+    
+        /**************************************/
+    
+        .header-1-2 {
+            text-decoration: none;
+
+            label {
+                text-decoration: none;
+                display: block;
+                margin-left: 1rem;
+            }
+        
+            .menu {
+                width: 2.4rem;
+                height: 2.4rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .navbar {
+                text-decoration: none;
+                position: absolute;
+                background-color: $color-azul;
+                top: 9rem;
+                width: 40%;
+                margin-left: -70%;
+
+                ul {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding: 0px;
+
+                    li {
+                        border-top: 0.05rem solid $color-blanco;
+
+                        a {
+                            display: block;
+                            font-size: 1.8rem;
+                            color: $color-blanco;
+                            padding: 0.5rem 1rem 0.5rem 1.5rem;
+                            text-align: left;
+                            text-decoration: none;
+                            letter-spacing: 0.1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        #btn-menu:checked ~ .navbar {
+            margin: 0rem;
+        }
+    }
+
+    /******************************************/
+    /***************MAIN - 767*****************/
+    /******************************************/
+    
+    /******************************************/
+    /*pagina inicio.html - 767                */
+    /******************************************/
+
+    .main-i {
+        .banner-i1-1 {
+            display: none;
+        }
+    
+        .banner-i1-2 {
+            display: block;
+            width: 100%;
+            margin: 0rem;
+        }
+
+        .main-i1 {
+            @include grid(26rem, 1fr, center, center, none, 4rem);
+            grid-template-areas:
+            "main-i1-1"
+            "main-i1-2"
+            "main-i1-3"
+            "main-i1-4";
+
+            .main-i1-1 {
+                grid-area: main-i1-1;
+            }
+        
+            .main-i1-2 {
+                grid-area: main-i1-2;
+            }
+        
+            .main-i1-3 {
+                grid-area: main-i1-3;
+            }
+        
+            .main-i1-4 {
+                grid-area: main-i1-4;
+            }
+    
+            img {
+                border-radius: 1rem;
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    
+        .main-i2 {
+            @include grid(26rem, 1fr, center, center, none, 4rem);
+            grid-template-areas:
+            "main-i2-1"
+            "main-i2-2"
+            "main-i2-3"
+            "main-i2-4";
+    
+            .main-i2-1 {
+                grid-area: main-i2-1;
+            }
+        
+            .main-i2-2 {
+                grid-area: main-i2-2;
+            }
+        
+            .main-i2-3 {
+                grid-area: main-i2-3;
+            }
+        
+            .main-i2-4 {
+                grid-area: main-i2-4;
+            }
+    
+            img {
+                border-radius: 1rem;
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    }
+
+    /******************************************/
+    /*pagina nosotros.html - 767              */
+    /******************************************/
+
+    .banner-n1-1 {
+        display: none;
+    }
+
+    .banner-n1-2 {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .main-n1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 8rem 1fr 8rem 1fr;
+    }
+
+    /******************************************/
+    /*pagina productos.html - 767             */
+    /******************************************/
+
+    .main-p1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+
+    .main-p2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+
+    .main-p3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+
+    /******************************************/
+    /*pagina catalogos.html - 767             */
+    /******************************************/
+
+    .banner-a1-1 {
+        display: none;
+    }
+
+    .banner-a1-2 {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .main-a1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    /******************************************/
+    /*pagina contactos.html - 767             */
+    /******************************************/
+    
+    .main-c1 {
+        width: 90%;
+    }
+
+    .main-c2-1 {
+        width: 90%;
+    }
+
+    .main-c2-2 {
+        width: 90%;
+    }
+
+    /******************************************/
+    /**************FOOTER - 767****************/
+    /******************************************/
+
+    .footer-1 {
+        .footer-1-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .footer-1-2 {
+            text-align: center;
+            h3 {
+                font-size: 1.79rem;
+            }
+        }
+    }
+    
+}

@@ -1,6 +1,4 @@
 .main-n {
-    padding-top: 13rem;
-
     .banner-n1 {
         .banner-n1-1 {
             display: block;
@@ -20,7 +18,7 @@
 
         .main-n1-1 {
             background-color: rgb(0, 177, 234);
-            @include flex(none, none, center, center, center, none, none);
+            @include flex(none, none, row, center, center, center, none, none);
 
             .h1-3 {
                 background-color: rgb(0, 177, 234);
@@ -41,7 +39,7 @@
 
         .main-n1-3 {
             background-color: rgb(128, 130, 132);
-            @include flex(none, none, center, center, center, none, none);
+            @include flex(none, none, row, center, center, center, none, none);
 
             .h1-4 {
                 background-color: rgb(128, 130, 132);

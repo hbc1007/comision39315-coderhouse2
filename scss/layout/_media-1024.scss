@@ -1,0 +1,232 @@
+@media (max-width: 1024px) {
+
+    /******************************************/
+    /**************HEADER - 1024***************/
+    /******************************************/
+
+    .header-1 {
+        .header-1-1 {
+            .logo {
+                width: 20.1rem;
+                height: 7rem;
+            }
+    
+            .icono {
+                width: 2.4rem;
+                height: 2.4rem;
+                margin-left: 1rem;
+            }
+        }
+    
+        /******************************************/
+    
+        .header-1-2 {
+            margin: 0rem;
+            text-decoration: none;
+
+            label {
+                display: block;
+                margin-left: 1rem;
+                text-decoration: none;
+            }
+        
+            .menu {
+                width: 2.4rem;
+                height: 2.4rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .navbar {
+                text-decoration: none;
+                position: absolute;
+                background-color: $color-azul;
+                top: 11.6rem;
+                width: 40%;
+                margin-left: -70%;
+    
+                ul {
+                    @include flex(none, column, none, flex-start, none, none, 4rem, none);
+                    flex-direction: column;
+                    // justify-content: flex-start;
+                    justify-content: center;
+                    padding: 0rem;
+    
+                    li {
+                        border-top: 0.05rem solid $color-blanco;
+    
+                        a {
+                            padding: 0.5rem 1rem 0.6rem 1rem;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+
+            #btn-menu:checked ~ .navbar {
+                margin: 0rem;
+            }
+        }
+    }
+    
+    /******************************************/
+    /***************MAIN - 1024****************/
+    /******************************************/
+
+    /******************************************/
+    /*pagina inicio.html - 1024               */
+    /******************************************/
+
+    .main-i {
+        .main-i1 {
+            @include grid(repeat(2,26rem), repeat(2,1fr), center, flex-start, 4rem, 4rem);
+            grid-template-areas:
+            "main-i1-1 main-i1-2"
+            "main-i1-3 main-i1-4";
+    
+            .main-i1-1 {
+                grid-area: main-i1-1;
+            }
+        
+            .main-i1-2 {
+                grid-area: main-i1-2;
+            }
+        
+            .main-i1-3 {
+                grid-area: main-i1-3;
+            }
+        
+            .main-i1-4 {
+                grid-area: main-i1-4;
+            }
+    
+            img {
+                border-radius: 1rem;
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    
+        .main-i2 {
+            @include grid(repeat(2,26rem), repeat(2,1fr), center, flex-start, 4rem, 4rem);
+            grid-template-areas:
+            "main-i2-1 main-i2-2"
+            "main-i2-3 main-i2-4";
+    
+            .main-i2-1 {
+                grid-area: main-i2-1;
+            }
+        
+            .main-i2-2 {
+                grid-area: main-i2-2;
+            }
+        
+            .main-i2-3 {
+                grid-area: main-i2-3;
+            }
+        
+            .main-i2-4 {
+                grid-area: main-i2-4;
+            }
+    
+            img {
+                border-radius: 1rem;
+                width: 25rem;
+                height: 25rem;
+            }
+        }
+    }
+    
+
+    /******************************************/
+    /*pagina productos.html - 1024           */
+    /******************************************/
+
+    .main-p1 {
+        grid-template-columns: repeat(2,31rem);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .main-p2 {
+        grid-template-columns: repeat(2,31rem);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .main-p3 {
+        grid-template-columns: repeat(2,31rem);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "main-p3-1 main-p3-2"
+        "main-p3-3 main-p3-3";
+    }
+
+    .main-p3-1 {
+        grid-area: main-p3-1;
+    }
+
+    .main-p3-2 {
+        grid-area: main-p3-2;
+    }
+
+    .main-p3-3 {
+        grid-area: main-p3-3;
+    }
+
+
+    /******************************************/
+    /*pagina catalogos.html - 1024            */
+    /******************************************/
+
+    .main-a1 {
+        grid-template-columns: repeat(2,25rem);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    /******************************************/
+    /*pagina contactos.html - 1024            */
+    /******************************************/
+    
+    .main-c1 {
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    .main-c2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-c2-1 {
+        width: 80%;
+    }
+
+    .main-c2-2 {
+        width: 80%;
+    }
+
+    /******************************************/
+    /**************FOOTER - 1024***************/
+    /******************************************/
+
+    .footer-1 {
+        .footer-1-1 {
+            @include grid(50% 50%, 1fr 1fr, none, flex-start, none, none);
+            text-align: center;
+            padding: 2rem;
+    
+            .footer-1-1-1 {
+                padding: 2rem 6rem 2rem 6rem;
+            }
+            
+            .footer-1-2-1 {
+                padding: 2rem 6rem 2rem 6rem;
+            }
+        
+            .footer-1-2 {
+                text-align: center;
+            }
+        }
+    }
+    
+}
+

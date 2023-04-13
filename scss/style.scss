@@ -15,34 +15,35 @@
 @import "./layout/main-nosotros";
 @import "./layout/main-catalogos";
 @import "./layout/main-contacto";
+@import "./layout/media-1024";
+@import "./layout/media-767";
 
 .container-1 {
-    background-color: white;
+    background-color: $color-blanco;
     width: 100%;
     height: auto;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3,auto);
+    @include grid(1fr, repeat(3,auto), none, none, none, none);
     grid-template-areas:
-    "header"
-    "main"
-    "footer";
+    "_header"
+    "_main"
+    "_footer";
 }
 
 header {
-    grid-area: header;
-    color:white;
-    background-color: $background-header;
+    grid-area: _header;
+    color: $color-blanco;
+    background-color: $color-azul;
 }
 
 main {
-    grid-area: main;
-    background-color: $background-main;
+    grid-area: _main;
+    background-color: $color-blanco;
 }
 
 footer {
-    grid-area: footer;
-    color:white;
-    background-color: $background-footer;
+    grid-area: _footer;
+    color: $color-blanco;
+    background-color: $color-azul;
 }
