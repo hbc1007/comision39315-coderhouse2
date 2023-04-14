@@ -111,7 +111,7 @@ h6 {
     align-items: center;
     column-gap: none;
     row-gap: none;
-    padding: 1rem 4rem 0rem 4rem;
+    padding: 0rem 4rem 0rem 4rem;
     text-decoration: none; }
     .header-1 .header-1-1 .logo {
       width: 25.9rem;
@@ -120,47 +120,46 @@ h6 {
       width: 3.2rem;
       height: 3.2rem;
       margin-left: 1rem; }
-  .header-1 .header-1-2 {
-    margin: 0rem;
-    text-decoration: none; }
-    .header-1 .header-1-2 label {
-      display: none; }
-      .header-1 .header-1-2 label .menu {
-        width: 3.2rem;
-        height: 3.2rem; }
-      .header-1 .header-1-2 label :hover {
-        cursor: pointer;
-        background-color: #3c61bf; }
-    .header-1 .header-1-2 .navbar {
-      position: center; }
-      .header-1 .header-1-2 .navbar ul {
-        margin: 0rem;
-        list-style: none;
-        display: flex;
-        flex-flow: none;
-        flex-direction-column: none;
-        flex-direction-row: row;
-        justify-content: center;
-        align-content: none;
-        align-items: none;
-        column-gap: 4rem;
-        row-gap: none;
-        background-color: #3c61bf; }
-        .header-1 .header-1-2 .navbar ul li a {
-          display: block;
-          font-size: 2rem;
-          color: white;
-          border-radius: 0.3rem;
-          letter-spacing: 0.1rem;
-          padding: 0.4rem 0rem 0.4rem 0rem;
-          text-align: center;
-          text-decoration: none; }
-          .header-1 .header-1-2 .navbar ul li a:hover {
-            background-color: #3c61bf;
-            color: #00b1ea;
-            transition: all 0.5s ease-in-out; }
-    .header-1 .header-1-2 #btn-menu {
-      display: none; }
+  .header-1 .header-1-2 label {
+    display: none; }
+    .header-1 .header-1-2 label .menu {
+      width: 3.2rem;
+      height: 3.2rem;
+      margin: 1rem; }
+    .header-1 .header-1-2 label :hover {
+      cursor: pointer;
+      background-color: #3c61bf; }
+  .header-1 .header-1-2 .navbar {
+    position: center; }
+    .header-1 .header-1-2 .navbar ul {
+      margin: 0rem;
+      padding: 0rem;
+      list-style: none;
+      display: flex;
+      flex-flow: none;
+      flex-direction-column: none;
+      flex-direction-row: row;
+      justify-content: center;
+      align-content: none;
+      align-items: none;
+      column-gap: 4rem;
+      row-gap: none;
+      background-color: #3c61bf; }
+      .header-1 .header-1-2 .navbar ul li a {
+        display: block;
+        font-size: 2rem;
+        color: white;
+        border-radius: 0.3rem;
+        letter-spacing: 0.1rem;
+        padding: 0.4rem 0rem 0.4rem 0rem;
+        text-align: center;
+        text-decoration: none; }
+        .header-1 .header-1-2 .navbar ul li a:hover {
+          background-color: #3c61bf;
+          color: #00b1ea;
+          transition: all 0.5s ease-in-out; }
+  .header-1 .header-1-2 #btn-menu {
+    display: none; }
 
 .main-i .banner-i1 .banner-i1-1 {
   display: block;
@@ -177,15 +176,15 @@ h6 {
   margin: 0rem; }
 
 .main-i .main-i1 {
+  margin: 0rem;
   width: 100%;
-  margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, minmax(10%, 20%));
+  grid-template-columns: repeat(4, minmax(16rem, 32rem));
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: flex-start;
-  column-gap: 2rem;
-  row-gap: 2rem;
+  column-gap: 3rem;
+  row-gap: 3rem;
   padding: 4rem;
   text-align: center; }
   .main-i .main-i1 div h3 {
@@ -194,33 +193,34 @@ h6 {
     padding: 2rem 2rem 2rem 2rem; }
   .main-i .main-i1 img {
     border-radius: 1rem;
-    max-width: 30rem;
-    max-height: 30rem; }
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
 
 .main-i .h1-2 {
-  background-color: #00b1ea;
-  color: black;
-  padding: 3rem 0rem 0rem 0rem;
   margin: 0rem;
-  text-align: center; }
+  background-color: #00b1ea;
+  text-align: center;
+  padding: 4rem 0rem 0rem 0rem; }
 
 .main-i .main-i2 {
+  margin: 0rem;
   width: 100%;
-  margin: auto;
   background-color: #00b1ea;
   display: grid;
-  grid-template-columns: repeat(4, minmax(10%, 20%));
+  grid-template-columns: repeat(4, minmax(16rem, 32rem));
   grid-template-rows: 1fr;
   justify-content: center;
   align-items: flex-start;
-  column-gap: 2rem;
-  row-gap: 2rem;
+  column-gap: 3rem;
+  row-gap: 3rem;
   padding: 4rem;
   text-align: center; }
   .main-i .main-i2 img {
     border-radius: 1rem;
-    max-width: 30rem;
-    max-height: 30rem; }
+    object-fit: cover;
+    width: 100%;
+    height: 100%; }
 
 .main-f .banner-f1 .banner-f1-1 {
   display: block;
@@ -428,36 +428,40 @@ h6 {
       width: 2.4rem;
       height: 2.4rem;
       margin-left: 1rem; }
-    .header-1 .header-1-2 {
-      margin: 0rem;
-      padding: 0rem;
-      text-decoration: none; }
-      .header-1 .header-1-2 label {
-        display: block;
-        margin-left: 1rem;
-        text-decoration: none; }
-      .header-1 .header-1-2 .menu {
+    .header-1 .header-1-2 label {
+      display: block; }
+      .header-1 .header-1-2 label .menu {
         width: 2.4rem;
         height: 2.4rem;
-        margin-bottom: 0.5rem; }
-      .header-1 .header-1-2 .navbar {
-        text-decoration: none;
-        position: absolute;
+        margin: 1rem 0.5rem 1rem 0.5rem; }
+    .header-1 .header-1-2 .navbar {
+      margin: 0rem;
+      padding: 0.5rem;
+      position: absolute;
+      background-color: #3c61bf;
+      top: 11.4rem;
+      width: auto;
+      margin-left: -70%; }
+      .header-1 .header-1-2 .navbar ul {
+        margin: 0rem;
+        padding: 0rem;
+        list-style: none;
         background-color: #3c61bf;
-        top: 11.6rem;
-        width: 40%;
-        margin-left: -70%; }
-        .header-1 .header-1-2 .navbar ul {
-          flex-direction: column;
-          justify-content: flex-start;
-          padding: 0rem; }
-          .header-1 .header-1-2 .navbar ul li {
-            border-top: 0.05rem solid white; }
-            .header-1 .header-1-2 .navbar ul li a {
-              padding: 0.5rem 1rem 0.6rem 1rem;
-              text-align: left; }
-      .header-1 .header-1-2 #btn-menu:checked ~ .navbar {
-        margin: 0rem; }
+        flex-direction: column;
+        justify-content: flex-start; }
+        .header-1 .header-1-2 .navbar ul li {
+          border-top: 0.05rem solid white; }
+          .header-1 .header-1-2 .navbar ul li a {
+            display: block;
+            font-size: 1.8rem;
+            color: white;
+            padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+            text-align: left;
+            letter-spacing: 0.1rem; }
+      .header-1 .header-1-2 .navbar .navbar-help {
+        display: none; }
+    .header-1 .header-1-2 #btn-menu:checked ~ .navbar {
+      margin: 0rem; }
   /******************************************/
   /***************MAIN - 1024****************/
   /******************************************/
@@ -466,12 +470,12 @@ h6 {
   /******************************************/
   .main-i .main-i1 {
     display: grid;
-    grid-template-columns: repeat(2, minmax(10%, 26rem));
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: flex-start;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    column-gap: 3rem;
+    row-gap: 3rem;
     grid-template-areas: "main-i1-1 main-i1-2" "main-i1-3 main-i1-4"; }
     .main-i .main-i1 .main-i1-1 {
       grid-area: main-i1-1; }
@@ -483,16 +487,17 @@ h6 {
       grid-area: main-i1-4; }
     .main-i .main-i1 img {
       border-radius: 1rem;
-      width: 25rem;
-      height: 25rem; }
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
   .main-i .main-i2 {
     display: grid;
-    grid-template-columns: repeat(2, minmax(10%, 26rem));
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: flex-start;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    column-gap: 3rem;
+    row-gap: 3rem;
     grid-template-areas: "main-i2-1 main-i2-2" "main-i2-3 main-i2-4"; }
     .main-i .main-i2 .main-i2-1 {
       grid-area: main-i2-1; }
@@ -504,8 +509,9 @@ h6 {
       grid-area: main-i2-4; }
     .main-i .main-i2 img {
       border-radius: 1rem;
-      width: 25rem;
-      height: 25rem; }
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
   /******************************************/
   /*pagina productos.html - 1024           */
   /******************************************/
@@ -577,38 +583,39 @@ h6 {
     .header-1 .header-1-1 .icono {
       width: 2.4rem;
       height: 2.4rem;
-      margin: 1rem; }
-    .header-1 .header-1-2 {
-      text-decoration: none; }
-      .header-1 .header-1-2 label {
-        text-decoration: none;
-        display: block;
-        margin-left: 1rem; }
-      .header-1 .header-1-2 .menu {
+      margin-left: 1rem; }
+    .header-1 .header-1-2 label {
+      display: block; }
+      .header-1 .header-1-2 label .menu {
         width: 2.4rem;
         height: 2.4rem;
-        margin-bottom: 0.5rem; }
-      .header-1 .header-1-2 .navbar {
-        text-decoration: none;
-        position: absolute;
+        margin: 1rem; }
+    .header-1 .header-1-2 .navbar {
+      margin: 0rem;
+      padding: 0.5rem;
+      position: absolute;
+      background-color: #3c61bf;
+      top: 9.3rem;
+      width: auto;
+      margin-left: -70%; }
+      .header-1 .header-1-2 .navbar ul {
+        margin: 0rem;
+        padding: 0rem;
+        list-style: none;
         background-color: #3c61bf;
-        top: 9rem;
-        width: 40%;
-        margin-left: -70%; }
-        .header-1 .header-1-2 .navbar ul {
-          flex-direction: column;
-          justify-content: flex-start;
-          padding: 0rem; }
-          .header-1 .header-1-2 .navbar ul li {
-            border-top: 0.05rem solid white; }
-            .header-1 .header-1-2 .navbar ul li a {
-              display: block;
-              font-size: 1.8rem;
-              color: white;
-              padding: 0.5rem 1rem 0.5rem 1.5rem;
-              text-align: left;
-              text-decoration: none;
-              letter-spacing: 0.1rem; }
+        flex-direction: column;
+        justify-content: flex-start; }
+        .header-1 .header-1-2 .navbar ul li {
+          border-top: 0.05rem solid white; }
+          .header-1 .header-1-2 .navbar ul li a {
+            display: block;
+            font-size: 1.8rem;
+            color: white;
+            padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+            text-align: left;
+            letter-spacing: 0.1rem; }
+    .header-1 .header-1-2 .navbar-help {
+      display: none; }
     .header-1 #btn-menu:checked ~ .navbar {
       margin: 0rem; }
   /******************************************/
@@ -617,9 +624,9 @@ h6 {
   /******************************************/
   /*pagina inicio.html - 767                */
   /******************************************/
-  .main-i .banner-i1-1 {
+  .main-i .banner-i1 .banner-i1-1 {
     display: none; }
-  .main-i .banner-i1-2 {
+  .main-i .banner-i1 .banner-i1-2 {
     display: block;
     width: 100%;
     margin: 0rem; }
@@ -630,7 +637,7 @@ h6 {
     justify-content: center;
     align-items: center;
     column-gap: none;
-    row-gap: 4rem;
+    row-gap: 3rem;
     grid-template-areas: "main-i1-1" "main-i1-2" "main-i1-3" "main-i1-4"; }
     .main-i .main-i1 .main-i1-1 {
       grid-area: main-i1-1; }

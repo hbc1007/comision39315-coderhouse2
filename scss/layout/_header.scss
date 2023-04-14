@@ -7,14 +7,14 @@
 
     .header-1-1 {
         @include flex(row wrap, none, none, space-between, none, center, none, none);
-        padding: 1rem 4rem 0rem 4rem;
+        padding: 0rem 4rem 0rem 4rem;
         text-decoration: none;
 
         .logo {
             width: 25.9rem;
             height: 9rem;
         }
-
+        
         .icono {
             width: 3.2rem;
             height: 3.2rem;
@@ -25,15 +25,13 @@
     /***************************************************/
 
     .header-1-2 {
-        margin: 0rem;
-        text-decoration: none;
-    
         label {
             display: none;
 
             .menu {
                 width: 3.2rem;
                 height: 3.2rem;
+                margin: 1rem;
             }
             
             :hover {
@@ -47,6 +45,7 @@
 
             ul {
                 margin: 0rem;
+                padding: 0rem;
                 list-style: none;
                 @include flex(none, none, row, center, none, none, 4rem, none);
                 background-color: $color-azul;

@@ -14,39 +14,39 @@
             .icono {
                 width: 2.4rem;
                 height: 2.4rem;
-                margin: 1rem;
+                margin-left: 1rem;
             }
         }
 
         /***********************************************/
     
         .header-1-2 {
-            text-decoration: none;
-
             label {
-                text-decoration: none;
                 display: block;
-                margin-left: 1rem;
+
+                .menu {
+                    width: 2.4rem;
+                    height: 2.4rem;
+                    margin: 1rem;
+                }
             }
         
-            .menu {
-                width: 2.4rem;
-                height: 2.4rem;
-                margin-bottom: 0.5rem;
-            }
-
             .navbar {
-                text-decoration: none;
+                margin: 0rem;
+                padding: 0.5rem;
                 position: absolute;
                 background-color: $color-azul;
-                top: 9rem;
-                width: 40%;
+                top: 9.3rem;
+                width: auto;
                 margin-left: -70%;
 
                 ul {
+                    margin: 0rem;
+                    padding: 0rem;
+                    list-style: none;
+                    background-color: $color-azul;
                     flex-direction: column;
                     justify-content: flex-start;
-                    padding: 0rem;
 
                     li {
                         border-top: 0.05rem solid $color-blanco;
@@ -55,13 +55,16 @@
                             display: block;
                             font-size: 1.8rem;
                             color: $color-blanco;
-                            padding: 0.5rem 1rem 0.5rem 1.5rem;
+                            padding: 0.5rem 1.5rem 0.5rem 1.5rem;
                             text-align: left;
-                            text-decoration: none;
                             letter-spacing: 0.1rem;
                         }
                     }
                 }
+            }
+
+            .navbar-help {
+                display: none;
             }
         }
 
@@ -79,18 +82,20 @@
     /******************************************/
 
     .main-i {
-        .banner-i1-1 {
-            display: none;
-        }
-    
-        .banner-i1-2 {
-            display: block;
-            width: 100%;
-            margin: 0rem;
-        }
+        .banner-i1 {
+            .banner-i1-1 {
+                display: none;
+            }
 
+            .banner-i1-2 {
+                display: block;
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+        
         .main-i1 {
-            @include grid(26rem, 1fr, center, center, none, 4rem);
+            @include grid(26rem, 1fr, center, center, none, 3rem);
             grid-template-areas:
             "main-i1-1"
             "main-i1-2"
