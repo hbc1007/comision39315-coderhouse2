@@ -165,101 +165,95 @@ h6 {
 .main-i .banner-i1 .banner-i1-2 {
   display: none; }
 
-.main-i .h1-1 {
-  margin: 0rem;
-  background-color: white;
-  padding: 4rem 0rem 0rem 0rem;
-  text-align: center; }
-
 .main-i .main-i1 {
-  margin: 0rem;
-  width: 100%;
-  background-color: white;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(16rem, 32rem));
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: 3rem;
-  row-gap: 3rem;
-  padding: 4rem;
-  text-align: center; }
-  .main-i .main-i1 div h3 {
-    text-align: center;
-    letter-spacing: 1px;
-    padding: 2rem 2rem 2rem 2rem; }
-  .main-i .main-i1 img {
-    border-radius: 50%;
-    border-width: 0.1rem;
-    object-fit: cover;
+  background-color: white; }
+  .main-i .main-i1 div h1 {
+    margin: 0rem;
+    padding: 4rem 1rem 0rem 1rem;
+    text-align: center; }
+  .main-i .main-i1 .main-i1-1 {
+    margin: 0rem;
     width: 100%;
-    height: 100%; }
-
-.main-i .h1-2 {
-  margin: 0rem;
-  background-color: #00b1ea;
-  padding: 4rem 0rem 0rem 0rem;
-  text-align: center; }
+    display: grid;
+    grid-template-columns: repeat(4, minmax(16rem, 32rem));
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    padding: 4rem;
+    text-align: center; }
+    .main-i .main-i1 .main-i1-1 div h3 {
+      text-align: center;
+      letter-spacing: 1px;
+      padding: 2rem 2rem 2rem 2rem; }
+    .main-i .main-i1 .main-i1-1 div img {
+      border-radius: 50%;
+      border-width: 0.1rem;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
 
 .main-i .main-i2 {
-  margin: 0rem;
-  width: 100%;
-  background-color: #00b1ea;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(16rem, 32rem));
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: 3rem;
-  row-gap: 3rem;
-  padding: 4rem;
-  text-align: center; }
-  .main-i .main-i2 img {
-    border-radius: 50%;
-    border-width: 0.1rem;
-    object-fit: cover;
+  background-color: #00b1ea; }
+  .main-i .main-i2 div h1 {
+    margin: 0rem;
+    padding: 4rem 0rem 0rem 0rem;
+    text-align: center; }
+  .main-i .main-i2 .main-i2-1 {
+    margin: 0rem;
     width: 100%;
-    height: 100%; }
+    display: grid;
+    grid-template-columns: repeat(4, minmax(16rem, 32rem));
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    padding: 4rem;
+    text-align: center; }
+    .main-i .main-i2 .main-i2-1 div img {
+      border-radius: 50%;
+      border-width: 0.1rem;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
 
-.main-f .banner-f1 .banner-f1-1 {
-  display: block;
-  width: 100%;
-  margin: 0rem; }
-
-.main-f .banner-f1 .banner-f1-2 {
-  display: none; }
-
-.main-f .h1-1 {
-  margin: 0rem;
-  background-color: white;
-  padding: 4rem 0rem 0rem 0rem;
-  text-align: center; }
-
-.main-f .main-f1 {
-  margin: 0rem;
-  width: 100%;
-  background-color: white;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(16rem, 32rem));
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: 3rem;
-  row-gap: 3rem;
-  padding: 4rem;
-  text-align: center; }
-  .main-f .main-f1 div h2 {
-    text-align: center;
-    letter-spacing: 1px;
-    padding: 2rem 2rem 2rem 2rem; }
-  .main-f .main-f1 img {
-    border-radius: 1rem;
-    border-width: 0.1rem;
-    border-style: solid;
-    border-color: black;
-    object-fit: cover;
+.main-f {
+  background-color: white; }
+  .main-f .banner-f1 .banner-f1-1 {
+    display: block;
     width: 100%;
-    height: 100%; }
+    margin: 0rem; }
+  .main-f .banner-f1 .banner-f1-2 {
+    display: none; }
+  .main-f div h1 {
+    margin: 0rem;
+    padding: 4rem 0rem 0rem 0rem;
+    text-align: center; }
+  .main-f .main-f1 {
+    margin: 0rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(16rem, 32rem));
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    padding: 4rem;
+    text-align: center; }
+    .main-f .main-f1 div h2 {
+      text-align: center;
+      letter-spacing: 1px;
+      padding: 2rem 2rem 2rem 2rem; }
+    .main-f .main-f1 div img {
+      border-radius: 1rem;
+      border-width: 0.1rem;
+      border-style: solid;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
 
 .main-g .banner-g1 .banner-g1-1 {
   display: block;
@@ -436,49 +430,45 @@ h6 {
       letter-spacing: 1px;
       padding: 4rem 6rem 4rem 6rem; }
 
-.main-a .banner-a1-1 {
-  display: block;
-  width: 100%;
-  margin: 0rem; }
-
-.main-a .banner-a1-2 {
-  display: none; }
-
-.main-a .h1-8 {
-  background-color: white;
-  color: black;
-  padding: 3rem 0rem 3rem 0rem;
-  margin: 0rem;
-  text-align: center; }
-
-.main-a .main-a1 {
-  width: 100%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 25rem);
-  grid-template-rows: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  column-gap: 4rem;
-  row-gap: 2rem;
-  padding: 2rem;
-  text-align: center; }
-  .main-a .main-a1 .button {
-    width: 25rem;
-    background-color: rgba(128, 130, 132, 0.25);
-    border-color: rgba(128, 130, 132, 0.25);
-    border-radius: 2rem;
+.main-a {
+  background-color: white; }
+  .main-a .banner-a1-1 {
+    display: block;
+    width: 100%;
+    margin: 0rem; }
+  .main-a .banner-a1-2 {
+    display: none; }
+  .main-a div h1 {
+    padding: 3rem 0rem 3rem 0rem;
+    margin: 0rem;
+    text-align: center; }
+  .main-a .main-a1 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 25rem);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    padding: 2rem;
+    text-align: center; }
+    .main-a .main-a1 .button {
+      width: 25rem;
+      background-color: rgba(128, 130, 132, 0.25);
+      border-color: rgba(128, 130, 132, 0.25);
+      border-radius: 2rem;
+      text-align: center;
+      color: black;
+      padding: 1.5rem 3.2rem;
+      font-size: 2rem;
+      cursor: pointer;
+      margin: 1.6rem 0.4rem; }
+  .main-a div h4 {
     text-align: center;
-    color: black;
-    padding: 1.5rem 3.2rem;
-    font-size: 2rem;
-    cursor: pointer;
-    margin: 1.6rem 0.4rem; }
-
-.main-a .h4-1 {
-  text-align: center;
-  padding: 4rem;
-  margin: 0rem; }
+    padding: 4rem;
+    margin: 0rem; }
 
 .main-c .main-c1 {
   background-color: #ecf0f3;
@@ -489,7 +479,6 @@ h6 {
   font-size: 2rem; }
   .main-c .main-c1 .h1-9 {
     background-color: #ecf0f3;
-    color: black;
     padding: 3rem 0rem 3rem 0rem;
     margin: 0rem;
     text-align: center; }
@@ -587,7 +576,7 @@ h6 {
   /******************************************/
   /*pagina inicio.html - 1024               */
   /******************************************/
-  .main-i .main-i1 {
+  .main-i .main-i1 .main-i1-1 {
     display: grid;
     grid-template-columns: repeat(2, minmax(16rem, 26rem));
     grid-template-rows: repeat(2, 1fr);
@@ -595,10 +584,54 @@ h6 {
     align-items: flex-start;
     column-gap: 3rem;
     row-gap: 3rem; }
-  .main-i .main-i2 {
+  .main-i .main-i2 .main-i2-1 {
     display: grid;
     grid-template-columns: repeat(2, minmax(16rem, 26rem));
     grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina dgfiesta.html - 1024             */
+  /******************************************/
+  .main-f .main-f1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina dgnottas.html - 1024             */
+  /******************************************/
+  .main-g .main-g1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina dgediciones.html - 1024          */
+  /******************************************/
+  .main-e .main-e1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 3rem;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina edcoquito.html - 767             */
+  /******************************************/
+  .main-q .main-q1 {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(16rem, 26rem));
+    grid-template-rows: repeat(3, 1fr);
     justify-content: center;
     align-items: flex-start;
     column-gap: 3rem;
@@ -615,10 +648,13 @@ h6 {
     column-gap: 4rem;
     row-gap: 2rem; }
   /******************************************/
+  /*pagina nosotros.html - 1024             */
+  /******************************************/
+  /******************************************/
   /*pagina contactos.html - 1024            */
   /******************************************/
   .main-c1 {
-    width: 80%;
+    width: 100%;
     font-size: 2rem; }
   .main-c2 {
     display: flex;
@@ -673,7 +709,7 @@ h6 {
       background-color: #3c61bf;
       top: 9.3rem;
       width: auto;
-      margin-left: -70%; }
+      margin-left: -100%; }
       .header-1 .header-1-2 .navbar ul {
         margin: 0rem;
         padding: 0rem;
@@ -706,40 +742,107 @@ h6 {
     display: block;
     width: 100%;
     margin: 0rem; }
-  .main-i .main-i1 {
+  .main-i .main-i1 .main-i1-1 {
     display: grid;
     grid-template-columns: 25rem;
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     column-gap: none;
-    row-gap: 3rem;
-    grid-template-areas: "main-i1-1" "main-i1-2" "main-i1-3" "main-i1-4"; }
-    .main-i .main-i1 .main-i1-1 {
-      grid-area: main-i1-1; }
-    .main-i .main-i1 .main-i1-2 {
-      grid-area: main-i1-2; }
-    .main-i .main-i1 .main-i1-3 {
-      grid-area: main-i1-3; }
-    .main-i .main-i1 .main-i1-4 {
-      grid-area: main-i1-4; }
-  .main-i .main-i2 {
+    row-gap: 3rem; }
+  .main-i .main-i2 .main-i2-1 {
     display: grid;
     grid-template-columns: 25rem;
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     column-gap: none;
-    row-gap: 4rem;
-    grid-template-areas: "main-i2-1" "main-i2-2" "main-i2-3" "main-i2-4"; }
-    .main-i .main-i2 .main-i2-1 {
-      grid-area: main-i2-1; }
-    .main-i .main-i2 .main-i2-2 {
-      grid-area: main-i2-2; }
-    .main-i .main-i2 .main-i2-3 {
-      grid-area: main-i2-3; }
-    .main-i .main-i2 .main-i2-4 {
-      grid-area: main-i2-4; }
+    row-gap: 4rem; }
+  /******************************************/
+  /*pagina dgfiesta.html - 767              */
+  /******************************************/
+  .main-f .banner-f1 .banner-f1-1 {
+    display: none; }
+  .main-f .banner-f1 .banner-f1-2 {
+    display: block;
+    width: 100%;
+    margin: 0rem; }
+  .main-f .main-f1 {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: none;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina dgnottas.html - 767              */
+  /******************************************/
+  .main-g .banner-g1 .banner-g1-1 {
+    display: none; }
+  .main-g .banner-g1 .banner-g1-2 {
+    display: block;
+    width: 100%;
+    margin: 0rem; }
+  .main-g .main-g1 {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: none;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina dgediciones.html - 767           */
+  /******************************************/
+  .main-e .banner-e1 .banner-e1-1 {
+    display: none; }
+  .main-e .banner-e1 .banner-e1-2 {
+    display: block;
+    width: 100%;
+    margin: 0rem; }
+  .main-e .main-e1 {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: none;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina edcoquito.html - 767             */
+  /******************************************/
+  .main-q .banner-q1 .banner-q1-1 {
+    display: none; }
+  .main-q .banner-q1 .banner-q1-2 {
+    display: block;
+    width: 100%;
+    margin: 0rem; }
+  .main-q .main-q1 {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: none;
+    row-gap: 3rem; }
+  /******************************************/
+  /*pagina catalogos.html - 767             */
+  /******************************************/
+  .main-a .banner-a1 .banner-a1-1 {
+    display: none; }
+  .main-a .banner-a1 .banner-a1-2 {
+    width: 100%;
+    display: block;
+    margin: auto; }
+  .main-a .main-a1 {
+    display: grid;
+    grid-template-columns: 25rem;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    column-gap: none;
+    row-gap: 2rem; }
   /******************************************/
   /*pagina nosotros.html - 767              */
   /******************************************/
@@ -757,58 +860,14 @@ h6 {
     align-items: none;
     column-gap: 3rem;
     row-gap: none; }
-    .main-n .main-n1 .main-n1-1 {
+    .main-n .main-n1 .main-n1-1 h1 {
       padding: 4rem 0rem 4rem 0rem; }
     .main-n .main-n1 .main-n1-2 div {
       padding: 4rem 4rem 4rem 4rem; }
-    .main-n .main-n1 .main-n1-3 {
+    .main-n .main-n1 .main-n1-3 h1 {
       padding: 4rem 0rem 4rem 0rem; }
     .main-n .main-n1 .main-n1-4 div {
       padding: 4rem 4rem 4rem 4rem; }
-  /******************************************/
-  /*pagina productos.html - 767             */
-  /******************************************/
-  .main-p1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 2rem;
-    padding: 2rem; }
-  .main-p2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 2rem;
-    padding: 2rem; }
-  .main-p3 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 2rem;
-    padding: 2rem; }
-  /******************************************/
-  /*pagina catalogos.html - 767             */
-  /******************************************/
-  .main-a .banner-a1 .banner-a1-1 {
-    display: none; }
-  .main-a .banner-a1 .banner-a1-2 {
-    width: 100%;
-    display: block;
-    margin: auto; }
-  .main-a .main-a1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
-    column-gap: none;
-    row-gap: 2rem; }
   /******************************************/
   /*pagina contactos.html - 767             */
   /******************************************/
@@ -825,10 +884,10 @@ h6 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: none;
+    grid-template-rows: repeat(2, 1fr) repeat(2, 15rem);
+    justify-content: center;
     align-items: center;
-    column-gap: center;
+    column-gap: none;
     row-gap: none;
     padding: 0rem;
     text-align: center; }

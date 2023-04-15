@@ -1,4 +1,6 @@
 .main-a {
+    background-color: $color-blanco;
+
     .banner-a1-1 {
         display: block;
         width: 100%;
@@ -9,14 +11,14 @@
         display: none;
     }
 
-    .h1-8 {
-        background-color:white;
-        color:black;
-        padding: 3rem 0rem 3rem 0rem;
-        margin: 0rem;
-        text-align: center;
+    div {
+        h1 {
+            padding: 3rem 0rem 3rem 0rem;
+            margin: 0rem;
+            text-align: center;
+        }
     }
-
+    
     .main-a1 {
         width: 100%;
         margin: auto;
@@ -26,8 +28,8 @@
 
         .button {
             width: 25rem;
-            background-color: rgba(128, 130, 132, 0.250);
-            border-color: rgba(128, 130, 132, 0.250);
+            background-color: $color-gris-claro;
+            border-color: $color-gris-claro;
             border-radius: 2rem;
             text-align: center;
             color:black;
@@ -38,9 +40,11 @@
         }
     }
 
-    .h4-1 {
-        text-align: center;
-        padding: 4rem;
-        margin: 0rem;
+    div {
+        h4 {
+            text-align: center;
+            padding: 4rem;
+            margin: 0rem;
+        }
     }
 }

@@ -37,7 +37,7 @@
                 background-color: $color-azul;
                 top: 9.3rem;
                 width: auto;
-                margin-left: -70%;
+                margin-left: -100%;
 
                 ul {
                     margin: 0rem;
@@ -93,64 +93,130 @@
             }
         }
 
-        // .main-i1 {
-        //     @include flex(none, column, none, center, center, center, none, 3rem);
-        // }
-    
-        // .main-i2 {
-        //     @include flex(none, column, none, center, center, center, none, 3rem);
-        // }
-        
         .main-i1 {
-            @include grid(25rem, 1fr, center, center, none, 3rem);
-            grid-template-areas:
-            "main-i1-1"
-            "main-i1-2"
-            "main-i1-3"
-            "main-i1-4";
-
             .main-i1-1 {
-                grid-area: main-i1-1;
-            }
-        
-            .main-i1-2 {
-                grid-area: main-i1-2;
-            }
-        
-            .main-i1-3 {
-                grid-area: main-i1-3;
-            }
-        
-            .main-i1-4 {
-                grid-area: main-i1-4;
+                @include grid(25rem, 1fr, center, center, none, 3rem);
             }
         }
-
+        
         .main-i2 {
-            @include grid(25rem, 1fr, center, center, none, 4rem);
-            grid-template-areas:
-            "main-i2-1"
-            "main-i2-2"
-            "main-i2-3"
-            "main-i2-4";
-    
             .main-i2-1 {
-                grid-area: main-i2-1;
-            }
-        
-            .main-i2-2 {
-                grid-area: main-i2-2;
-            }
-        
-            .main-i2-3 {
-                grid-area: main-i2-3;
-            }
-        
-            .main-i2-4 {
-                grid-area: main-i2-4;
+                @include grid(25rem, 1fr, center, center, none, 4rem);
             }
         }
     }
+
+    /******************************************/
+    /*pagina dgfiesta.html - 767              */
+    /******************************************/
+
+    .main-f {
+        .banner-f1 {
+            .banner-f1-1 {
+                display: none;
+            }
+
+            .banner-f1-2 {
+                display: block;
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+
+        .main-f1 {
+            @include grid(25rem, 1fr, center, center, none, 3rem);
+        }
+    }
+
+    /******************************************/
+    /*pagina dgnottas.html - 767              */
+    /******************************************/
+
+    .main-g {
+        .banner-g1 {
+            .banner-g1-1 {
+                display: none;
+            }
+
+            .banner-g1-2 {
+                display: block;
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+
+        .main-g1 {
+            @include grid(25rem, 1fr, center, center, none, 3rem);
+        }
+    }
+
+    /******************************************/
+    /*pagina dgediciones.html - 767           */
+    /******************************************/
+
+    .main-e {
+        .banner-e1 {
+            .banner-e1-1 {
+                display: none;
+            }
+
+            .banner-e1-2 {
+                display: block;
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+
+        .main-e1 {
+            @include grid(25rem, 1fr, center, center, none, 3rem);
+        }
+    }
+
+    /******************************************/
+    /*pagina edcoquito.html - 767             */
+    /******************************************/
+
+    .main-q {
+        .banner-q1 {
+            .banner-q1-1 {
+                display: none;
+            }
+
+            .banner-q1-2 {
+                display: block;
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+
+        .main-q1 {
+            @include grid(25rem, 1fr, center, center, none, 3rem);
+        }
+    }
+
+
+    /******************************************/
+    /*pagina catalogos.html - 767             */
+    /******************************************/
+
+    .main-a {
+        .banner-a1 {
+            .banner-a1-1 {
+                display: none;
+            }
+        
+            .banner-a1-2 {
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+        }
+
+        .main-a1 {
+            @include grid(25rem, 1fr, center, center, none, 2rem);
+        }
+    }
+    
 
     /******************************************/
     /*pagina nosotros.html - 767              */
@@ -173,9 +239,11 @@
             @include grid(1fr, 8rem 1fr 8rem 1fr, none, none, 3rem, none);
 
             .main-n1-1 {
-                padding: 4rem 0rem 4rem 0rem;    
+                h1 {
+                    padding: 4rem 0rem 4rem 0rem;    
+                }
             }
-
+            
             .main-n1-2 {
                 div {
                     padding: 4rem 4rem 4rem 4rem;
@@ -183,7 +251,9 @@
             }
 
             .main-n1-3 {
-                padding: 4rem 0rem 4rem 0rem;
+                h1 {
+                    padding: 4rem 0rem 4rem 0rem;
+                }
             }
 
             .main-n1-4 {
@@ -193,62 +263,8 @@
             }
         }   
     }
-
-    /******************************************/
-    /*pagina productos.html - 767             */
-    /******************************************/
-
-    .main-p1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        row-gap: 2rem;
-        padding: 2rem;
-    }
-
-    .main-p2 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        row-gap: 2rem;
-        padding: 2rem;
-    }
-
-    .main-p3 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        row-gap: 2rem;
-        padding: 2rem;
-    }
-
-    /******************************************/
-    /*pagina catalogos.html - 767             */
-    /******************************************/
-
-    .main-a {
-        .banner-a1 {
-            .banner-a1-1 {
-                display: none;
-            }
-        
-            .banner-a1-2 {
-                width: 100%;
-                display: block;
-                margin: auto;
-            }
-        }
-
-        .main-a1 {
-            @include grid(1fr, 1fr, center, center, none, 2rem);
-        }
-    }
+    
+    
 
     /******************************************/
     /*pagina contactos.html - 767             */
@@ -273,7 +289,7 @@
     .footer-1 {
         .footer-1-1 {
             width: 100%;
-            @include grid(1fr, repeat(4, 1fr), none, center, center, none);
+            @include grid(1fr, repeat(2, 1fr) repeat(2, 15rem), center, center, none, none);
             padding: 0rem;
             text-align: center;
     

@@ -71,6 +71,7 @@
             }
         }
     }
+
     
     /******************************************/
     /***************MAIN - 1024****************/
@@ -82,14 +83,62 @@
 
     .main-i {
         .main-i1 {
-            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
+            .main-i1-1 {
+                @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
+            }
         }
-
+        
         .main-i2 {
-            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
+            .main-i2-1 {
+                @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
+            }
         }
     }
-    
+
+
+    /******************************************/
+    /*pagina dgfiesta.html - 1024             */
+    /******************************************/
+
+    .main-f {
+        .main-f1 {
+            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(3, 1fr), center, flex-start, 3rem, 3rem);
+        }
+    }
+
+
+    /******************************************/
+    /*pagina dgnottas.html - 1024             */
+    /******************************************/
+
+    .main-g {
+        .main-g1 {
+            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(3, 1fr), center, flex-start, 3rem, 3rem);
+        }
+    }
+
+
+    /******************************************/
+    /*pagina dgediciones.html - 1024          */
+    /******************************************/
+
+    .main-e {
+        .main-e1 {
+            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(3, 1fr), center, flex-start, 3rem, 3rem);
+        }
+    }
+
+
+    /******************************************/
+    /*pagina edcoquito.html - 767             */
+    /******************************************/
+
+    .main-q {
+        .main-q1 {
+            @include grid(repeat(2, minmax(16rem, 26rem)), repeat(3, 1fr), center, flex-start, 3rem, 3rem);
+        }
+    }
+
 
     /******************************************/
     /*pagina catalogos.html - 1024            */
@@ -101,12 +150,21 @@
         }
     }
 
+
+    /******************************************/
+    /*pagina nosotros.html - 1024             */
+    /******************************************/
+
+
+
+
+
     /******************************************/
     /*pagina contactos.html - 1024            */
     /******************************************/
     
     .main-c1 {
-        width: 80%;
+        width: 100%;
         font-size: 2rem;
     }
 
@@ -123,6 +181,7 @@
     .main-c2-2 {
         width: 80%;
     }
+
 
     /******************************************/
     /**************FOOTER - 1024***************/
