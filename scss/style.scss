@@ -11,7 +11,7 @@
 @import "./layout/main-dgfiesta";
 @import "./layout/main-dgnottas";
 @import "./layout/main-dgediciones";
-@import "./layout/main-coquito";
+@import "./layout/main-edcoquito";
 @import "./layout/main-nosotros";
 @import "./layout/main-catalogos";
 @import "./layout/main-contacto";
@@ -23,7 +23,6 @@
     width: 100%;
     height: auto;
     margin: auto;
-    display: grid;
     @include grid(1fr, repeat(3,auto), none, none, none, none);
     grid-template-areas:
     "_header"

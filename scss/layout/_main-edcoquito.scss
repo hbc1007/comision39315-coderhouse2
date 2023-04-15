@@ -1,12 +1,12 @@
-.main-g {
-    .banner-g1 {
-        .banner-g1-1 {
+.main-q {
+    .banner-q1 {
+        .banner-q1-1 {
             display: block;
             width: 100%;
             margin: 0rem;
         }
         
-        .banner-g1-2 {
+        .banner-q1-2 {
             display: none;
         }
     }
@@ -18,11 +18,11 @@
         text-align: center;
     }
 
-    .main-g1 {
+    .main-q1 {
         margin: 0rem;
         width: 100%;
         background-color: $color-blanco;
-        @include grid(repeat(3, minmax(16rem, 32rem)), repeat(2, 1fr), center, flex-start, 3rem, 3rem);
+        @include grid(repeat(3,minmax(16rem, 32rem)), 1fr, center, flex-start, 3rem, 3rem);
         padding: 4rem;
         text-align: center;
 

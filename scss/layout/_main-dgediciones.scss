@@ -10,4 +10,38 @@
             display: none;
         }
     }
+
+    .h1-1 {
+        margin: 0rem;
+        background-color: $color-blanco;
+        padding: 4rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+
+    .main-e1 {
+        margin: 0rem;
+        width: 100%;
+        background-color: $color-blanco;
+        @include grid(repeat(3,minmax(16rem, 32rem)), 1fr, center, flex-start, 3rem, 3rem);
+        padding: 4rem;
+        text-align: center;
+
+        div {
+            h2 {
+                text-align: center;
+                letter-spacing: 1px;
+                padding: 2rem 2rem 2rem 2rem;
+            }
+        }
+        
+        img {
+            border-radius: 1rem;
+            border-width: 0.1rem;
+            border-style:solid;
+            border-color: black;
+            object-fit: cover;
+            width:100%;
+            height:100%;
+        }
+    }
 }

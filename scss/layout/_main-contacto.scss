@@ -56,7 +56,7 @@
 
         .main-c2-2 {
             width: 100%;
-            @include flex(row wrap, none, none, center, center, center, 1rem, none);
+            @include flex(row wrap, none, center, center, center, 1rem, none);
             padding: 2rem;
         }
     }

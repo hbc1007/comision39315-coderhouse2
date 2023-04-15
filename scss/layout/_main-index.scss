@@ -14,15 +14,16 @@
     }
 
     .h1-1 {
-        background-color: $color-blanco;
-        text-align: center;
-        padding: 4rem 0rem 0rem 0rem;
         margin: 0rem;
+        background-color: $color-blanco;
+        padding: 4rem 0rem 0rem 0rem;
+        text-align: center;
     }
 
     .main-i1 {
         margin: 0rem;
         width: 100%;
+        background-color: $color-blanco;
         @include grid(repeat(4, minmax(16rem, 32rem)), 1fr, center, flex-start, 3rem, 3rem);
         padding: 4rem;
         text-align: center;
@@ -34,35 +35,84 @@
                 padding: 2rem 2rem 2rem 2rem;
             }
         }
-        
+
         img {
-            border-radius: 1rem;
+            border-radius: 50%;
+            border-width: 0.1rem;
             object-fit: cover;
             width:100%;
             height:100%;
-        }
+         }
+        
+        // .main-i1-1 {
+        //     img {
+        //         background-color: rgb(246, 160, 249);
+        //         border-radius: 1rem;
+        //         object-fit: cover;
+        //         width:100%;
+        //         height:100%;
+        //     }
+        // }
+
+        // .main-i1-2 {
+        //     img {
+        //         background-color: rgb(164, 149, 216);
+        //         border-radius: 1rem;
+        //         object-fit: cover;
+        //         width:100%;
+        //         height:100%;
+        //     }
+        // }
+
+        // .main-i1-3 {
+        //     img {
+        //         background-color: rgb(0, 39, 130);
+        //         border-radius: 1rem;
+        //         object-fit: cover;
+        //         width:100%;
+        //         height:100%;
+        //     }
+        // }
+
+        // .main-i1-4 {
+        //     img {
+        //         background-color: rgb(255, 204, 82);
+        //         border-radius: 1rem;
+        //         object-fit: cover;
+        //         width:100%;
+        //         height:100%;
+        //     }
+        // }
     }
 
     .h1-2 {
         margin: 0rem;
-        background-color: rgb(0,177,234);
-        text-align: center;
+        background-color: $color-cian;
         padding: 4rem 0rem 0rem 0rem;
+        text-align: center;
     }
 
     .main-i2 {
         margin: 0rem;
         width: 100%;
-        background-color: rgb(0,177,234);
+        background-color: $color-cian;
         @include grid(repeat(4, minmax(16rem, 32rem)), 1fr, center, flex-start, 3rem, 3rem);
         padding: 4rem;
         text-align: center;
 
+        // img {
+        //     border-radius: 1rem;
+        //     object-fit: cover;
+        //     width: 100%;
+        //     height: 100%;
+        // }
+
         img {
-            border-radius: 1rem;
+            border-radius: 50%;
+            border-width: 0.1rem;
             object-fit: cover;
-            width: 100%;
-            height: 100%;
-        }
+            width:100%;
+            height:100%;
+         }
     }
 }

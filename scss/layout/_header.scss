@@ -6,7 +6,7 @@
     // width: 100%;
 
     .header-1-1 {
-        @include flex(row wrap, none, none, space-between, none, center, none, none);
+        @include flex(row wrap, none, space-between, none, center, none, none);
         padding: 0rem 4rem 0rem 4rem;
         text-decoration: none;
 
@@ -47,7 +47,7 @@
                 margin: 0rem;
                 padding: 0rem;
                 list-style: none;
-                @include flex(none, none, row, center, none, none, 4rem, none);
+                @include flex(none, row, center, none, none, 4rem, none);
                 background-color: $color-azul;
                 
                 li {

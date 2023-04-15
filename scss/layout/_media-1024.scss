@@ -27,7 +27,6 @@
                 .menu {
                     width: 2.4rem;
                     height: 2.4rem;
-                    margin: 1rem 0.5rem 1rem 0.5rem;
                 }
             }
 
@@ -36,7 +35,7 @@
                 padding: 0.5rem;
                 position: absolute;
                 background-color: $color-azul;
-                top: 11.4rem;
+                top: 11.3rem;
                 width: auto;
                 margin-left: -70%;
     
@@ -84,108 +83,22 @@
     .main-i {
         .main-i1 {
             @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
-            grid-template-areas:
-            "main-i1-1 main-i1-2"
-            "main-i1-3 main-i1-4";
-    
-            .main-i1-1 {
-                grid-area: main-i1-1;
-            }
-        
-            .main-i1-2 {
-                grid-area: main-i1-2;
-            }
-        
-            .main-i1-3 {
-                grid-area: main-i1-3;
-            }
-        
-            .main-i1-4 {
-                grid-area: main-i1-4;
-            }
-
-            img {
-                border-radius: 1rem;
-                object-fit: cover;
-                width:100%;
-                height:100%;
-            }
         }
-    
+
         .main-i2 {
             @include grid(repeat(2, minmax(16rem, 26rem)), repeat(2,1fr), center, flex-start, 3rem, 3rem);
-            grid-template-areas:
-            "main-i2-1 main-i2-2"
-            "main-i2-3 main-i2-4";
-    
-            .main-i2-1 {
-                grid-area: main-i2-1;
-            }
-        
-            .main-i2-2 {
-                grid-area: main-i2-2;
-            }
-        
-            .main-i2-3 {
-                grid-area: main-i2-3;
-            }
-        
-            .main-i2-4 {
-                grid-area: main-i2-4;
-            }
-    
-            img {
-                border-radius: 1rem;
-                object-fit: cover;
-                width:100%;
-                height:100%;
-            }
         }
     }
     
-
-    /******************************************/
-    /*pagina productos.html - 1024           */
-    /******************************************/
-
-    .main-p1 {
-        grid-template-columns: repeat(2,31rem);
-        grid-template-rows: repeat(3,1fr);
-    }
-
-    .main-p2 {
-        grid-template-columns: repeat(2,31rem);
-        grid-template-rows: repeat(3,1fr);
-    }
-
-    .main-p3 {
-        grid-template-columns: repeat(2,31rem);
-        grid-template-rows: repeat(2,1fr);
-        grid-template-areas: 
-        "main-p3-1 main-p3-2"
-        "main-p3-3 main-p3-3";
-    }
-
-    .main-p3-1 {
-        grid-area: main-p3-1;
-    }
-
-    .main-p3-2 {
-        grid-area: main-p3-2;
-    }
-
-    .main-p3-3 {
-        grid-area: main-p3-3;
-    }
-
 
     /******************************************/
     /*pagina catalogos.html - 1024            */
     /******************************************/
 
-    .main-a1 {
-        grid-template-columns: repeat(2,25rem);
-        grid-template-rows: repeat(3,1fr);
+    .main-a {
+        .main-a1 {
+            @include grid(repeat(2,25rem), repeat(3,1fr), center, center, 4rem, 2rem);
+        }
     }
 
     /******************************************/
