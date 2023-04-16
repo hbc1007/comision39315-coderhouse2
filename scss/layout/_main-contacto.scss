@@ -1,35 +1,31 @@
 .main-c {
     .main-c1 {
-        background-color: #ecf0f3;
-        border: 1px solid #bfd8eb;
+        background-color: $color-gris-claro;
+        border: 0.1rem solid $color-gris;
         border-radius: 0.5rem;
         margin: 3rem auto;
         width: 60%;
         font-size: 2rem;
 
-        .h1-9 {
-            background-color: #ecf0f3;
-            padding: 3rem 0rem 3rem 0rem;
-            margin: 0rem;
-            text-align: center;
+        div {
+            h1 {
+                padding: 3rem 0rem 3rem 0rem;
+                margin: 0rem;
+                text-align: center;
+            }
         }
 
         .main-c1-1 {
-            background-color:rgba(60, 97, 191, 0.250);
-            border-radius: 0.8rem 0.8rem 0rem 0rem;
+            border-radius: 1rem;
             margin-bottom: 0rem;
         }
 
         .main-c1-2 {
-            padding: 1.4rem;   
+            padding: 2rem;
         }
 
         label, input[type="submit"] {
             margin-top: 1rem;
-        }
-
-        .btn:focus{
-            outline: none;
         }
     }
 
@@ -37,11 +33,11 @@
         background-color: rgb(233,209,160);
         color:black;
         width: 100%;
-        @include grid(20% 30% 30% 20%, 1fr, none, none, none, none);
+        @include grid(50% 50%, 1fr, end, center, 4rem, none);
         padding: 2rem;
 
         .main-c2-1 {
-            padding: 2rem;
+            padding: 2rem 2rem 2rem 10rem;
 
             h3 {
                 text-align: center;
@@ -54,9 +50,40 @@
         }
 
         .main-c2-2 {
-            width: 100%;
-            @include flex(row wrap, none, center, center, center, 1rem, none);
+            @include grid(minmax(16rem, 25rem) minmax(1.6rem, 5rem), 1fr, start, center, none, none);
             padding: 2rem;
+
+            .main-c2-2-1 {
+                width: 25rem;
+                height: 6rem;
+                position: relative;
+                display: inline-block;
+                border: 0.2rem solid $color-negro;
+                background: transparent;
+                font-size: 1.8rem;
+                font-weight: normal;
+                padding: 1.4rem;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .main-c2-2-2 {
+                width: 6rem;
+                height: 6rem;
+                position: relative;
+                display: inline-block;
+                background: transparent;
+                font-size: 1.8rem;
+                font-weight: normal;
+                padding: 1.4rem;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            img {
+                width: 2.4rem;
+                height: 2.4rem;
+            }
         }
     }
 }

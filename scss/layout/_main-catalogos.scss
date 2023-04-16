@@ -11,14 +11,6 @@
         display: none;
     }
 
-    div {
-        h1 {
-            padding: 3rem 0rem 3rem 0rem;
-            margin: 0rem;
-            text-align: center;
-        }
-    }
-    
     .main-a1 {
         width: 100%;
         margin: auto;
@@ -26,21 +18,36 @@
         padding: 2rem;
         text-align: center;
 
-        .button {
+        button {
             width: 25rem;
-            background-color: $color-gris-claro;
-            border-color: $color-gris-claro;
-            border-radius: 2rem;
+            height: 6rem;
+            position: relative;
+            display: inline-block;
+            border: 0.2rem solid $color-gris;
+            border-radius: 3rem;
+            background: $color-gris;
+            color: $color-blanco;
+            font-size: 1.8rem;
+            font-weight: normal;
+            padding: 1rem;
             text-align: center;
-            color:black;
-            padding: 1.5rem 3.2rem;
-            font-size: 2rem;
-            cursor: pointer;
-            margin: 1.6rem 0.4rem;
+            text-decoration: none;
+            transition: color 0.5s, background 0.5s;
+        }
+
+        button:hover {
+            color: $color-gris;
+            background-color: transparent;
         }
     }
 
     div {
+        h1 {
+            padding: 3rem 0rem 3rem 0rem;
+            margin: 0rem;
+            text-align: center;
+        }
+
         h4 {
             text-align: center;
             padding: 4rem;

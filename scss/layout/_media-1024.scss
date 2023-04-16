@@ -163,26 +163,25 @@
     /*pagina contactos.html - 1024            */
     /******************************************/
     
-    .main-c1 {
-        width: 100%;
-        font-size: 2rem;
+    .main-c {
+        .main-c1 {
+            width: 80%;
+        }
+    
+        .main-c2 {
+            @include grid(1fr, 2fr, center, center, none, none);
+
+            .main-c2-1 {
+                padding: 2rem;
+            }
+    
+            .main-c2-2 {
+                @include grid(minmax(16rem, 25rem) minmax(1.6rem, 6rem), 1fr, center, center, none, none);
+            }
+        }
     }
-
-    .main-c2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-c2-1 {
-        width: 80%;
-    }
-
-    .main-c2-2 {
-        width: 80%;
-    }
-
-
+    
+    
     /******************************************/
     /**************FOOTER - 1024***************/
     /******************************************/
@@ -190,20 +189,10 @@
     .footer-1 {
         .footer-1-1 {
             @include grid(50% 50%, 1fr 1fr, none, flex-start, none, none);
+        }
+
+        .footer-1-2 {
             text-align: center;
-            padding: 2rem;
-    
-            .footer-1-1-1 {
-                padding: 2rem 6rem 2rem 6rem;
-            }
-            
-            .footer-1-2-1 {
-                padding: 2rem 6rem 2rem 6rem;
-            }
-        
-            .footer-1-2 {
-                text-align: center;
-            }
         }
     }
     

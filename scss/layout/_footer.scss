@@ -1,91 +1,77 @@
 .footer-1 {
     .footer-1-1 {
         width: 100%;
-        @include grid(30% 30% 20% 20%, 1fr, none, flex-start, none, none);
-        padding: 2rem;
+        @include grid(30% 30% 20% 20%, 1fr, none, flex-start, 1rem, none);
         text-align: center;
+        padding: 2rem;
+
+        h3 {
+            padding: 2rem 0rem 1rem 0rem;
+        }
+
+        p {
+            letter-spacing: 0.1rem;
+        }
 
         .footer-1-1-1 {
-            padding: 2rem 8rem 2rem 8rem;
-        
-            p {
-                letter-spacing: 0.1rem;
-            }
+            padding: 0rem 1rem 0rem 1rem;
         }
 
         .footer-1-1-2 {
-            padding: 2rem 8rem 2rem 8rem;
-        
-            p {
-                letter-spacing: 0.1rem;
+            .footer-1-1-2-1 {
+                width: 100%;
+                @include flex(row wrap, none, center, none, flex-start, 2rem, none);
             }
 
             .footer-1-1-2-2 {
                 width: 100%;
-                @include flex(row wrap, none, center, none, flex-start, 2rem, none);
-            
-                img {
-                    width: 2.4rem;
-                    height: 2.4rem;
-                }
+                @include flex(row wrap, none, center, none, flex-start, 2rem, none);   
             }
 
-            .footer-1-1-2-3 {
-                width: 100%;
-                @include flex(row wrap, none, center, none, flex-start, 2rem, none);
-
-                img {
-                    width: 2.4rem;
-                    height: 2.4rem;
-                }
+            img {
+                width: 2.4rem;
+                height: 2.4rem;
             }
         }
 
         .footer-1-1-3 {
-            padding: 2rem 8rem 2rem 8rem;
-        
+            .footer-1-1-3-1 {
+                width: 100%;
+                @include flex(row wrap, none, center, none, flex-start, 2rem, none);
+            }
+            
+            .footer-1-1-3-2 {
+                width: 100%;
+                @include flex(row wrap, none, center, none, flex-start, 2rem, none);   
+            }
+
+            div {
+                a {
+                    color: $color-blanco;
+                    font-size: 1.6rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+
             img {
-                width: 3.2rem;
-                height: 3.2rem;
-                margin: 1rem;
+                width: 2.4rem;
+                height: 2.4rem;
             }
         }
 
         .footer-1-1-4 {
-            padding: 2rem 8rem 2rem 8rem;
-        
             img {
                 width: 3.2rem;
                 height: 3.2rem;
-                margin: 1rem;
+                margin: 0rem 1rem 1rem 1rem;
             }
         }
     }
 
     .footer-1-2 {
-        padding: 3rem;
+        h3 {
+            font-weight: normal;
+            padding: 3rem;
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

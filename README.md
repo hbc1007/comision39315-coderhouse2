@@ -1,6 +1,7 @@
 Este proyecto es un piloto para la empresa donde trabajo.
-En principio será una sitio web de presentación de la empresa.
-Luego se implementará una intranet para ver reportes gerenciales entre otras.
+El sitio web será solo informativa, en donde se detalla
+quienes somos, donde nos ubicamos, que líneas de productos 
+comercializamos, entre otras.
 
 Herramientas usadas:
 - HTML5
