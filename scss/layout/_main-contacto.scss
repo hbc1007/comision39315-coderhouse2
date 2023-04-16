@@ -30,8 +30,7 @@
     }
 
     .main-c2 {
-        background-color: rgb(233,209,160);
-        color:black;
+        background-color: $color-cian-claro;
         width: 100%;
         @include grid(50% 50%, 1fr, end, center, 4rem, none);
         padding: 2rem;
