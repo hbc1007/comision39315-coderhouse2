@@ -1,9 +1,9 @@
 .footer-1 {
     .footer-1-1 {
         width: 100%;
-        @include grid(30% 30% 20% 20%, 1fr, none, flex-start, 1rem, none);
+        @include grid(30% 30% 20% 20%, 1fr, none, flex-start, 0rem, none);
         text-align: center;
-        padding: 2rem;
+        padding: 2rem 4rem 2rem 4rem;
 
         h3 {
             padding: 2rem 0rem 1rem 0rem;
@@ -18,6 +18,8 @@
         }
 
         .footer-1-1-2 {
+            padding: 0rem 1rem 0rem 1rem;
+
             .footer-1-1-2-1 {
                 width: 100%;
                 @include flex(row wrap, none, center, none, flex-start, 2rem, none);
@@ -63,15 +65,18 @@
             img {
                 width: 3.2rem;
                 height: 3.2rem;
-                margin: 0rem 1rem 1rem 1rem;
+                margin: 0rem 1rem 0rem 1rem;
             }
         }
     }
 
     .footer-1-2 {
+        padding: 2rem 4rem 2rem 4rem;
+
         h3 {
             font-weight: normal;
             padding: 3rem;
         }
     }
 }
+

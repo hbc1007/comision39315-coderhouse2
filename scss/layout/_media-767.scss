@@ -293,7 +293,7 @@
     .footer-1 {
         .footer-1-1 {
             width: 100%;
-            @include grid(1fr, repeat(4, 1fr), center, center, none, none);
+            @include grid(1fr, repeat(2, 1fr) repeat(2, 25rem), center, center, none, none);
 
             .footer-1-1-1 {
                 padding: 2rem 4rem 2rem 4rem;
