@@ -43,9 +43,6 @@ h6 {
   top: 0;
   width: 100%;
   /***************************************************/ }
-  .header-1 .abajo {
-    background-color: yellow;
-    color: chartreuse; }
   .header-1 .header-1-1 {
     display: flex;
     flex-flow: row wrap;

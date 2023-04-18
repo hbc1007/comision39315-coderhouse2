@@ -4,11 +4,6 @@
     left: 0;
     top: 0;
     width: 100%;
-    
-    .abajo {
-        background-color: yellow;
-        color: chartreuse;
-    }
 
     .header-1-1 {
         @include flex(row wrap, none, space-between, none, center, none, none);
