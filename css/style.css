@@ -521,7 +521,6 @@ h6 {
     .main-a .main-a1 button {
       width: 25rem;
       height: 6rem;
-      position: relative;
       display: inline-block;
       border: 0.2rem solid #808284;
       border-radius: 3rem;
