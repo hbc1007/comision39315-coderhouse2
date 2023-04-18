@@ -1,9 +1,11 @@
 .main-c {
+    padding-top: 13rem;
+
     .main-c1 {
         background-color: $color-gris-claro;
         border: 0.1rem solid $color-gris;
         border-radius: 0.5rem;
-        margin: 3rem auto;
+        margin: 6rem auto;
         width: 60%;
         font-size: 2rem;
 
@@ -32,8 +34,8 @@
     .main-c2 {
         background-color: $color-cian-claro;
         width: 100%;
-        @include grid(50% 50%, 1fr, end, center, 4rem, none);
-        padding: 2rem;
+        @include grid(60% 40%, 1fr, center, center, 4rem, none);
+        padding: 2rem 20rem 2rem 20rem;
 
         .main-c2-1 {
             padding: 2rem 2rem 2rem 10rem;
@@ -49,7 +51,7 @@
         }
 
         .main-c2-2 {
-            @include grid(minmax(16rem, 25rem) minmax(1.6rem, 5rem), 1fr, start, center, none, none);
+            @include grid(minmax(16rem, 25rem) minmax(1.6rem, 5rem), 1fr, center, center, none, none);
             padding: 2rem;
 
             .main-c2-2-1 {

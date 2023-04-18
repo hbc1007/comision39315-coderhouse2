@@ -1,9 +1,9 @@
 .header-1 {
-    // background-color: $color-azul;
-    // position: fixed;
-    // left: 0;
-    // top: 0;
-    // width: 100%;
+    background-color: $color-azul;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 
     .header-1-1 {
         @include flex(row wrap, none, space-between, none, center, none, none);
@@ -38,6 +38,10 @@
                 cursor: pointer;
                 background-color: $color-azul;
             }
+        }
+
+        .header-1-2-1 {
+            display: none;
         }
 
         .navbar {
