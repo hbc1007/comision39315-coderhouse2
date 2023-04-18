@@ -38,20 +38,19 @@
     /******************************************/
 
     .main-i {
+        padding-top: 8rem;
+
         .banner-i1 {
             .banner-i1-1 {
                 img {
                     display: none;
                 }
-                
             }
 
             .banner-i1-2 {
                 img {
                     display: block;
-                    width: 100%;
-                    margin: 0rem;
-                    overflow: hidden;
+                    
                 }
             }
         }

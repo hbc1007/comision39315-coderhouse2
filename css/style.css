@@ -203,12 +203,12 @@ h6 {
     display: none; }
 
 .main-i {
-  padding-top: 13rem; }
+  padding-top: 13rem;
+  overflow: hidden; }
   .main-i .banner-i1 .banner-i1-1 img {
     display: block;
     width: 100%;
-    margin: 0rem;
-    overflow: hidden; }
+    margin: 0rem; }
   .main-i .banner-i1 .banner-i1-2 img {
     display: none; }
   .main-i .banner-i1 ul {
@@ -858,29 +858,28 @@ h6 {
   /******************************************/
   /*pagina inicio.html - 768                */
   /******************************************/
-  .main-i .banner-i1 .banner-i1-1 img {
-    display: none; }
-  .main-i .banner-i1 .banner-i1-2 img {
-    display: block;
-    width: 100%;
-    margin: 0rem;
-    overflow: hidden; }
-  .main-i .main-i1 .main-i1-1 {
-    display: grid;
-    grid-template-columns: 25rem;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
-    column-gap: none;
-    row-gap: 3rem; }
-  .main-i .main-i2 .main-i2-1 {
-    display: grid;
-    grid-template-columns: 25rem;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
-    column-gap: none;
-    row-gap: 4rem; }
+  .main-i {
+    padding-top: 8rem; }
+    .main-i .banner-i1 .banner-i1-1 img {
+      display: none; }
+    .main-i .banner-i1 .banner-i1-2 img {
+      display: block; }
+    .main-i .main-i1 .main-i1-1 {
+      display: grid;
+      grid-template-columns: 25rem;
+      grid-template-rows: 1fr;
+      justify-content: center;
+      align-items: center;
+      column-gap: none;
+      row-gap: 3rem; }
+    .main-i .main-i2 .main-i2-1 {
+      display: grid;
+      grid-template-columns: 25rem;
+      grid-template-rows: 1fr;
+      justify-content: center;
+      align-items: center;
+      column-gap: none;
+      row-gap: 4rem; }
   /******************************************/
   /*pagina dgfiesta.html - 768              */
   /******************************************/
