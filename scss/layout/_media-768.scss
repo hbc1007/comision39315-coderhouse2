@@ -40,13 +40,19 @@
     .main-i {
         .banner-i1 {
             .banner-i1-1 {
-                display: none;
+                img {
+                    display: none;
+                }
+                
             }
 
             .banner-i1-2 {
-                display: block;
-                width: 100%;
-                margin: 0rem;
+                img {
+                    display: block;
+                    width: 100%;
+                    margin: 0rem;
+                    overflow: hidden;
+                }
             }
         }
 

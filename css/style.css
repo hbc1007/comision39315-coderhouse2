@@ -210,10 +210,7 @@ h6 {
     margin: 0rem;
     overflow: hidden; }
   .main-i .banner-i1 .banner-i1-2 img {
-    display: none;
-    width: 100%;
-    margin: 0rem;
-    overflow: hidden; }
+    display: none; }
   .main-i .banner-i1 ul {
     display: flex;
     padding: 0;
@@ -861,12 +858,13 @@ h6 {
   /******************************************/
   /*pagina inicio.html - 768                */
   /******************************************/
-  .main-i .banner-i1 .banner-i1-1 {
+  .main-i .banner-i1 .banner-i1-1 img {
     display: none; }
-  .main-i .banner-i1 .banner-i1-2 {
+  .main-i .banner-i1 .banner-i1-2 img {
     display: block;
     width: 100%;
-    margin: 0rem; }
+    margin: 0rem;
+    overflow: hidden; }
   .main-i .main-i1 .main-i1-1 {
     display: grid;
     grid-template-columns: 25rem;
