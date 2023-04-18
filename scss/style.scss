@@ -5,8 +5,8 @@
 @import "./base/typo";
 @import "./components/bootstrap";
 @import "./components/botones";
-@import "./layout/footer";
 @import "./layout/header";
+@import "./layout/footer";
 @import "./layout/main-index";
 @import "./layout/main-dgfiesta";
 @import "./layout/main-dgnottas";
@@ -35,7 +35,6 @@ header {
     grid-area: _header;
     color: $color-blanco;
     background-color: $color-azul;
-    // background: linear-gradient(to right bottom,$color-azul, $color-azul-claro);
 }
 
 main {
