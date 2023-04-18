@@ -204,12 +204,44 @@ h6 {
 
 .main-i {
   padding-top: 13rem; }
-  .main-i .banner-i1 .banner-i1-1 {
+  .main-i .banner-i1 .banner-i1-1 img {
     display: block;
     width: 100%;
-    margin: 0rem; }
-  .main-i .banner-i1 .banner-i1-2 {
-    display: none; }
+    margin: 0rem;
+    overflow: hidden; }
+  .main-i .banner-i1 .banner-i1-2 img {
+    display: none;
+    width: 100%;
+    margin: 0rem;
+    overflow: hidden; }
+  .main-i .banner-i1 ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out; }
+    .main-i .banner-i1 ul li {
+      width: 100%;
+      list-style: none; }
+      .main-i .banner-i1 ul li img {
+        width: 100%; }
+
+@keyframes slide {
+  0% {
+    margin-left: 0; }
+  20% {
+    margin-left: 0; }
+  25% {
+    margin-left: -100%; }
+  45% {
+    margin-left: -100%; }
+  50% {
+    margin-left: -200%; }
+  70% {
+    margin-left: -200%; }
+  75% {
+    margin-left: -300%; }
+  100% {
+    margin-left: -300%; } }
   .main-i .main-i1 {
     background-color: white; }
     .main-i .main-i1 div h1 {
