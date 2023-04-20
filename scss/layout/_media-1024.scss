@@ -40,18 +40,16 @@
 
             .navbar {
                 margin: 0rem;
-                padding: 0.5rem;
                 position: absolute;
-                background-color: $color-azul;
-                top: 8.9rem;
+                top: 8.5rem;
                 width: auto;
                 margin-left: -100%;
     
                 ul {
                     margin: 0rem;
                     padding: 0rem;
-                    list-style: none;
                     background-color: $color-azul;
+                    list-style: none;
                     flex-direction: column;
                     justify-content: flex-start;
                     
@@ -61,8 +59,7 @@
                         a {
                             display: block;
                             font-size: 1.8rem;
-                            color: $color-blanco;
-                            padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+                            padding: 0.6rem 1.5rem 0.6rem 1.5rem;
                             text-align: left;
                             letter-spacing: 0.1rem;
                         }

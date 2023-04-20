@@ -33,8 +33,14 @@
 
 header {
     grid-area: _header;
-    color: $color-blanco;
-    background-color: $color-azul;
+}
+
+header div.abajo {
+    background-color: $color-azul-oscuro;
+
+    nav ul li {
+        background-color: $color-azul-oscuro;
+    }
 }
 
 main {
