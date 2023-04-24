@@ -323,6 +323,7 @@ h6 {
       letter-spacing: 1px;
       padding: 2rem 2rem 2rem 2rem; }
     .main-f .main-f1 div img {
+      border-color: black;
       border-radius: 1rem;
       border-width: 0.1rem;
       border-style: solid;
@@ -338,9 +339,8 @@ h6 {
     margin: 0rem; }
   .main-g .banner-g1 .banner-g1-2 {
     display: none; }
-  .main-g .h1-1 {
+  .main-g div h1 {
     margin: 0rem;
-    background-color: white;
     padding: 4rem 0rem 0rem 0rem;
     text-align: center; }
   .main-g .main-g1 {
@@ -377,9 +377,8 @@ h6 {
     margin: 0rem; }
   .main-e .banner-e1 .banner-e1-2 {
     display: none; }
-  .main-e .h1-1 {
+  .main-e div h1 {
     margin: 0rem;
-    background-color: white;
     padding: 4rem 0rem 0rem 0rem;
     text-align: center; }
   .main-e .main-e1 {
@@ -416,9 +415,8 @@ h6 {
     margin: 0rem; }
   .main-q .banner-q1 .banner-q1-2 {
     display: none; }
-  .main-q .h1-1 {
+  .main-q div h1 {
     margin: 0rem;
-    background-color: white;
     padding: 4rem 0rem 0rem 0rem;
     text-align: center; }
   .main-q .main-q1 {
@@ -553,7 +551,7 @@ h6 {
     border-radius: 0.5rem;
     margin: 6rem auto;
     width: 60%;
-    max-width: 60rem;
+    max-width: 70rem;
     font-size: 2rem; }
     .main-c .main-c1 div h1 {
       padding: 3rem 0rem 3rem 0rem;

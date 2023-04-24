@@ -64,10 +64,10 @@
             <div class="main-c">
                 <div class="main-c1">
                     <div>
-                        <p class="col-12 fs-1 fw-bold pt-5 text-center">CONSULTAS Y SUGERENCIAS</p>
+                        <p class="col-12 fs-1 fw-bold pt-5 text-center">CONSULTAS</p>
                     </div>
                     <div class="main-c1-2">
-                        <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+                        <form id="form" class="form" action="https://formspree.io/f/mzbqygjl" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label>Nombres y Apellidos:</label>
@@ -78,16 +78,13 @@
                                     <input type="email" name="email" id="email" class="form-control form-control-lg">
                                 </div>
                             </div>
-                            <label>Asunto:</label>
-                            <input type="text" name="asunto" id="asunto" class="form-control form-control-lg">
                             <label>Mensaje:</label>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control form-control-lg"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control form-control-lg"></textarea>
                             <div>
                                 <p class="col-12 fs-4 pt-4 text-center">Este sitio está protegido por reCAPTCHA y se aplica la Política de 
                                     privacidad de Google y los términos del servicio.</p>
                             </div>
-                            <br>
-                            <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: 2.2rem;">Enviar</button>
+                            <button type="submit" class="btn btn-primary" style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: 2.2rem;">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -181,6 +178,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

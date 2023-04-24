@@ -18,5 +18,7 @@ Herramientas usadas:
 - JavaScript
 
 Nota:
-Se ha agregado una pequeña función en JavaScript para poder
-cambiar el color del header al momento de hacer scroll.
+1 Se ha agregado una pequeña función en JavaScript para poder
+  cambiar el color del header al momento de hacer scroll.
+2 El envío de correos para contactarnos es totalmente funcional con el
+  API Formspree.
