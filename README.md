@@ -22,6 +22,8 @@ Notas:
   cambiar el color del header al momento de hacer scroll.
 2 El envío de correos para consultas y/o sugerencias es totalmente funcional 
   con el API Formspree.
+3 Se agregó en el Head una meta para desactivar el enlace de hipertexto en los
+  números telefónicos mostrados en el navegador safari.
 
 PRESUPUESTO
 Soles:    3,500
