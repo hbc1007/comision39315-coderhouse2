@@ -6,7 +6,7 @@ La página central se concentra en mostrar nuestras líneas
 de productos y licencias autorizadas.
 Todas la paginas web están entrelazadas, lo que les permitirá avanzar
 o retroceder a través del menú o link que están incrustadas en las imágenes.
-Algunas de ellas los llevará a las tiendas online, donde podrá profundizar
+Algunas de ellas los llevarán a las tiendas online, donde podrá profundizar
 en el detalle del producto, ver sus caracteristicas, precios 
 y/o finalmente comprarlo.
 
@@ -17,8 +17,13 @@ Herramientas usadas:
 - Framework Bootstrap v5.3
 - JavaScript
 
-Nota:
+Notas:
 1 Se ha agregado una pequeña función en JavaScript para poder
   cambiar el color del header al momento de hacer scroll.
-2 El envío de correos para contactarnos es totalmente funcional con el
-  API Formspree.
+2 El envío de correos para consultas y/o sugerencias es totalmente funcional 
+  con el API Formspree.
+
+PRESUPUESTO
+Soles:    3,500
+Dólares:    940
+
